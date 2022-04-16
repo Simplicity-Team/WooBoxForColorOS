@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="other">Diğer </string>
+    <string name="reboot_host">Cihazı yeniden başlat</string>
+    <string name="reboot">Sistemi Yeniden Başlat </string>
+    <!--Status bar icons-->
+    <string name="about">Hakkında</string>
+    <string name="about_module">Modül Hakkında</string>
+    <string name="opensource">Açık Kaynak Deposu</string>
+    <string name="github_url">Geliştirmeye katılmak için daha fazla geliştiriciye hoş geldiniz</string>
+    <string name="issues">Geribildirim/Teklif</string>
+    <string name="issues_url">GitHub Sorunlarını görüntülemek için tıklayın</string>
+    <string name="xposeddescription">ColorOS12 (Android 12) için özelleştirme aracı</string>
+    <string name="main_switch">Modül ana şalteri</string>
+    <string name="menu">Menü</string>
+    <string name="Tips">İpuçları</string>
+    <string name="HideLauncherIcon">Başlatıcı simgesini gizle</string>
+    <string name="matters_needing_attention">Özellik çalışmıyor mu?</string>
+    <string name="Done">Tamam</string>
+    <string name="about_module_summary">Modülle ilgili bilgileri görüntüleyin</string>
+    <string name="contributor_list">Açık kaynak deposu katkıda bulunan listesi</string>
+    <string name="developer">Geliştirici</string>
+    <string name="thank_list">Teşekkürler listesi</string>
+    <string name="third_party_open_source_statement">Üçüncü Taraf Açık Kaynak Bildirimi</string>
+    <string name="app_coolapk_url">Gelin ve bize beş yıldızlı bir inceleme yapın</string>
+    <string name="app_coolapk_url_summary">Bu bizi daha keşfedilebilir yapabilir</string>
+    <string name="qq_channel">Resmi QQ kanalına katılın</string>
+    <string name="tg_channel">Resmi Telegram kanalına katılın</string>
+    <string name="tg_channel_summary">Sohbet grubuna kanal sayfasından girebilirsiniz.</string>
+    <string name="discussions">Tartışmalar</string>
+    <string name="not_support">Görünüşe göre eski bir LSPosed sürümü kullanıyorsunuz veya LSPosed aktif değil, lütfen LSPosed\'i güncelleyin veya etkinleştirin ve tekrar deneyin.</string>
+    <string name="matters_needing_attention_context">İlk etkinleştirme veya güncellemeden sonra telefonu yeniden başlatmanız önerilir\nDeğişikliklerin çoğunun geçerli olması için sağ üst köşede yeniden başlatma gerekir</string>
+    <string name="are_you_sure_reboot">Yeniden başlattığınızdan emin misiniz?</string>
+    <string name="cancel">İptal</string>
+    <string name="are_you_sure_reboot_scope">Tüm kapsamı yeniden başlattığınızdan emin misiniz?</string>
+    <string name="participate_in_translation">Çeviriye katılmak</string>
+    <string name="participate_in_translation_summary">Uygulamayı kendi dilinize çevirmemize yardımcı olun</string>
+</resources>

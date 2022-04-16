@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="other">Otro</string>
+    <string name="reboot_host">Reinicia todo el ámbito</string>
+    <string name="reboot">Reiniciar el sistema</string>
+    <!--Status bar icons-->
+    <string name="about">Acerca de</string>
+    <string name="about_module">Acerca del Módulo</string>
+    <string name="opensource">Repositorio de Código Abierto</string>
+    <string name="github_url">Más desarrolladores están invitados a participar en el proyecto</string>
+    <string name="issues">Comentarios/Sugerencias</string>
+    <string name="issues_url">Clic para ver errores en GitHub</string>
+    <string name="xposeddescription">Herramienta de personalización para ColorOS12 (Android 12)</string>
+    <string name="main_switch">Interruptor principal del módulo</string>
+    <string name="menu">Menú</string>
+    <string name="Tips">Consejos</string>
+    <string name="HideLauncherIcon">Esconder el icono del Launcher</string>
+    <string name="matters_needing_attention">¿Alguna característica no funciona? </string>
+    <string name="Done">OK</string>
+    <string name="about_module_summary">Ver información relacionada con el módulo</string>
+    <string name="contributor_list">Lista de colaboradores del repositorio de código abierto</string>
+    <string name="developer">Desarrollador</string>
+    <string name="thank_list">Agradecimientos</string>
+    <string name="third_party_open_source_statement">Declaración de Código Abierto de Terceros</string>
+    <string name="app_coolapk_url">Ayúdanos con una reseña de cinco estrellas</string>
+    <string name="app_coolapk_url_summary">Esto hará que más personas nos encuentren</string>
+    <string name="qq_channel">Únete al canal oficial de QQ</string>
+    <string name="tg_channel">Únete al canal oficial de TG</string>
+    <string name="tg_channel_summary">Pues entrar al grupo de chat desde la página del canal</string>
+    <string name="discussions">Discusiones</string>
+    <string name="not_support">Al parecer estás usando una versión antigua de LSPosed o LSPosed no está activo, por favor actualiza LSPosed o actívalo e intenta de nuevo.</string>
+    <string name="matters_needing_attention_context">Se recomienda reiniciar el teléfono después de la primera activación o al actualizarla\nLa mayoría de los cambios requieren un reinicio desde la esquina superior derecha para que surtan efecto</string>
+    <string name="are_you_sure_reboot">¿Está seguro de reiniciar?</string>
+    <string name="cancel">Cancelar</string>
+    <string name="are_you_sure_reboot_scope">¿Está seguro de reiniciar todo el ámbito?</string>
+    <string name="participate_in_translation">Participa en la traducción</string>
+    <string name="participate_in_translation_summary">Ayúdanos a traducir la app en tu idioma</string>
+</resources>

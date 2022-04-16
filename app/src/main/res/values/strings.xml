@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">WooBox For ColorOS</string>
+    <string name="other">Other</string>
+    <string name="reboot_host">Restart all scope</string>
+    <string name="reboot">Reboot System</string>
+
+    <!--Status bar icons-->
+
+    <string name="about">About</string>
+    <string name="about_module">About Module</string>
+    <string name="opensource">Open Source Repository</string>
+    <string name="github_url">Welcome more developers to participate in the development</string>
+    <string name="issues">Feedback/Proposal</string>
+    <string name="issues_url">Click to view GitHub Issues</string>
+    <string name="xposeddescription">Customization tool for ColorOS12(Android 12)</string>
+    <string name="main_switch">Module main switch</string>
+    <string name="menu">Menu</string>
+    <string name="Tips">Tips</string>
+    <string name="HideLauncherIcon">Hide Launcher icon</string>
+    <string name="matters_needing_attention">Feature is not working? </string>
+    <string name="Done">OK</string>
+    <string name="about_module_summary">View module related information</string>
+    <string name="contributor_list">Open source repository contributor list</string>
+    <string name="developer">Developer</string>
+    <string name="thank_list">Thanks list</string>
+    <string name="third_party_open_source_statement">Third Party Open Source Statement</string>
+    <string name="app_coolapk_url">Come and give us five-star review</string>
+    <string name="app_coolapk_url_summary">This can make us more discoverable</string>
+    <string name="qq_channel">Join the official QQ channel</string>
+    <string name="tg_channel">Join the official TG channel</string>
+    <string name="tg_channel_summary">You can enter the chat group on the channel page</string>
+    <string name="discussions">Discussions</string>
+    <string name="not_support">You seem to be using an outdated version of LSPosed or LSPosed is not active, please update LSPosed or activate it and try again.</string>
+    <string name="matters_needing_attention_context">It is recommended to restart the phone after the first activation or update\nMost of changes require restart in the top right corner to take effect</string>
+    <string name="are_you_sure_reboot">Are you sure to reboot?</string>
+    <string name="cancel">Cancel</string>
+    <string name="are_you_sure_reboot_scope">Are you sure to reboot all scope?</string>
+    <string name="participate_in_translation">Participate in translation</string>
+    <string name="participate_in_translation_summary">Help us translate the app into your language</string>
+</resources>

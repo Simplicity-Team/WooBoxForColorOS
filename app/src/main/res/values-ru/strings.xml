@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="other">Другое</string>
+    <string name="reboot_host">Перезагрузка SystemUI</string>
+    <string name="reboot">Полная перезагрузка</string>
+    <!--Status bar icons-->
+    <string name="about">Информация</string>
+    <string name="about_module">О модуле</string>
+    <string name="opensource">Исходный код</string>
+    <string name="github_url">Приглашаем больше разработчиков принять участие в разработке</string>
+    <string name="issues">Обратная связь</string>
+    <string name="issues_url">Нажмите, чтобы просмотреть обсуждение на GitHub</string>
+    <string name="xposeddescription">Инструмент настройки для ColorOS12 (Android 12)</string>
+    <string name="main_switch">Вкл/Выкл модуль</string>
+    <string name="menu">Варианты перезагрузки</string>
+    <string name="Tips">Подсказка</string>
+    <string name="HideLauncherIcon">Скрыть иконку с рабочего стола</string>
+    <string name="matters_needing_attention">Функция не работает?</string>
+    <string name="Done">OK</string>
+    <string name="about_module_summary">Просмотр информации</string>
+    <string name="contributor_list">Список участников</string>
+    <string name="developer">Разработчик</string>
+    <string name="thank_list">Список благодарностей</string>
+    <string name="third_party_open_source_statement">Официальный репозиторий</string>
+    <string name="app_coolapk_url">Перейти и оставить отзыв</string>
+    <string name="app_coolapk_url_summary">Это поможет в развитии проэкта</string>
+    <string name="qq_channel">Присоединяйтесь к официальному каналу QQ</string>
+    <string name="tg_channel">Присоединяйтесь к официальному каналу в Telegram</string>
+    <string name="tg_channel_summary">Вы можете войти в чат на странице канала</string>
+    <string name="discussions">Контакты</string>
+    <string name="not_support">Похоже, вы используете устаревшую версию LSPosed или LSPosed не активен. Пожалуйста, обновите LSPosed или активируйте его и повторите попытку.</string>
+    <string name="matters_needing_attention_context">Рекомендуется перезагрузить телефон после первой активации или обновления.Большинство изменений требуют перезапуска. Используйте 3 точки в правом верхнем углу</string>
+    <string name="are_you_sure_reboot">Перезагрузить устройство?</string>
+    <string name="cancel">Отмена</string>
+    <string name="are_you_sure_reboot_scope">Перезагрузить интерфейс?</string>
+    <string name="participate_in_translation">Участвуйте в переводе</string>
+    <string name="participate_in_translation_summary">Помогите нам перевести приложение на ваш язык</string>
+</resources>

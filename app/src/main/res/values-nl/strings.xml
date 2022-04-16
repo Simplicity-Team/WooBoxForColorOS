@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="other">Andere</string>
+    <string name="reboot_host">Herstart alle scope</string>
+    <string name="reboot">Herstart Systeem</string>
+    <!--Status bar icons-->
+    <string name="about">Over</string>
+    <string name="about_module">Over Module</string>
+    <string name="opensource">Open Source Repository</string>
+    <string name="github_url">Welkom meer ontwikkelaars om deel te nemen in de ontwikkeling</string>
+    <string name="issues">Feedback/Voorstel</string>
+    <string name="issues_url">Klik om GitHub Problemen te bekijken</string>
+    <string name="xposeddescription">Aanpassingsgereedschap voor ColorOS12(Android 12)</string>
+    <string name="main_switch">Module hoofdschakelaar</string>
+    <string name="menu">Menu</string>
+    <string name="Tips">Hint</string>
+    <string name="HideLauncherIcon">Verberg Launcher icoon</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="other">Khác</string>
+    <string name="reboot_host">Khởi động lại ứng dụng liên quan</string>
+    <string name="reboot">Khởi động lại hệ thống</string>
+    <!--Status bar icons-->
+    <string name="about">Giới thiệu</string>
+    <string name="about_module">Về Module</string>
+    <string name="opensource">Kho nguồn mở</string>
+    <string name="github_url">Chào mừng các nhà phát triển tham gia vào quá trình phát triển</string>
+    <string name="issues">Phản hồi/Đề xuất</string>
+    <string name="issues_url">Ấn để xem GitHub Issues</string>
+    <string name="xposeddescription">Công cụ tuỳ chỉnh hoá ColorOS12(Android 12)</string>
+    <string name="main_switch">Công tắc module</string>
+    <string name="menu">Menu</string>
+    <string name="Tips">Mẹo</string>
+    <string name="HideLauncherIcon">Ẩn biểu tượng ứng dụng này khỏi màn hình chính</string>
+    <string name="matters_needing_attention">Tính năng không hoạt động? </string>
+    <string name="Done">OK</string>
+    <string name="about_module_summary">Xem thông tin liên quan tới module</string>
+    <string name="contributor_list">Danh sánh người đóng góp kho nguồn mở</string>
+    <string name="developer">Nhà phát triển</string>
+    <string name="thank_list">Danh sách cảm ơn</string>
+    <string name="third_party_open_source_statement">Tuyên Bố Về Mã Nguồn Mở Của Bên Thứ Ba</string>
+    <string name="app_coolapk_url">Tới và đánh giá chúng tôi 5 sao</string>
+    <string name="app_coolapk_url_summary">Điều này có thể giúp chúng tôi dễ được biết tới hơn</string>
+    <string name="qq_channel">Tham gia kênh QQ chính thức</string>
+    <string name="tg_channel">Tham gia kênh TG chính thức</string>
+    <string name="tg_channel_summary">Bạn có thể vào nhóm trò chuyện trên kênh</string>
+    <string name="discussions">Thảo luận</string>
+    <string name="not_support">Có vẻ bạn đang dùng LSPosed bản cũ hoặc LSPosed chưa được kích hoạt, vui lòng cập nhật hoặc kích hoạt LSPosed rồi thử lại.</string>
+    <string name="matters_needing_attention_context">Nên khởi động lại điện thoại sau lần kích hoạt hoặc cập nhật đầu tiên\nHầu hết các thay đổi yêu cầu khởi động lại ở góc trên cùng bên phải để có hiệu lực</string>
+    <string name="are_you_sure_reboot">Bạn chắc chắn muốn khởi động lại?</string>
+    <string name="cancel">Hủy</string>
+    <string name="are_you_sure_reboot_scope">Bạn có muốn khởi động lại tất cả ứng dụng liên quan?</string>
+    <string name="participate_in_translation">Tham gia dịch</string>
+    <string name="participate_in_translation_summary">Giúp chúng tôi dịch ứng dụng sang ngôn ngữ của bạn</string>
+</resources>

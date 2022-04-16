@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="other">Autre</string>
+    <string name="reboot_host">Redémarrer SystemUI</string>
+    <string name="reboot">Redémarrer le système</string>
+    <!--Status bar icons-->
+    <string name="about">À propos</string>
+    <string name="about_module">À propos du Module</string>
+    <string name="opensource">Référentiel Open Source</string>
+    <string name="github_url">Bienvenue à d\'autres développeurs pour participer au développement</string>
+    <string name="issues">Feed-back/Proposition</string>
+    <string name="issues_url">Cliquez pour voir GitHub</string>
+    <string name="xposeddescription">Outil de personnalisation pour ColorOS12(Android 12)</string>
+    <string name="main_switch">Interrupteur Généra</string>
+    <string name="menu">Menu</string>
+    <string name="Tips">Conseils</string>
+    <string name="HideLauncherIcon">Masquer l\'icône en Homepage</string>
+    <string name="matters_needing_attention">Fonctionnalité ne fonctionne pas ? </string>
+    <string name="Done">Ok</string>
+    <string name="about_module_summary">Informations Relatives au module</string>
+    <string name="contributor_list">Liste des contributeurs</string>
+    <string name="developer">Développeur</string>
+    <string name="thank_list">Liste de remerciements</string>
+    <string name="third_party_open_source_statement">Déclaration Open Source Tiers</string>
+    <string name="app_coolapk_url">Ddonnez un avis cinq étoiles</string>
+    <string name="app_coolapk_url_summary">Cela peut nous rendre plus découverts</string>
+    <string name="qq_channel">Joignez la chaîne officielle en QQ</string>
+    <string name="tg_channel">Joignez la chaîne officielle en Télégramme</string>
+    <string name="tg_channel_summary">Vous pouvez entrer dans le groupe de discussion sur la page de la chaîne</string>
+    <string name="discussions">Discussions</string>
+    <string name="not_support">Vous semblez utiliser une version obsolète de LSPosed ou LSPosed n\'est pas active, veuillez mettre à jour LSPosed ou l\'activer et réessayer.</string>
+    <string name="matters_needing_attention_context">Il est recommandé de redémarrer le téléphone après la première activation ou la première mise à jour\nLa plupart des modifications nécessitent un redémarrage SystemUI dans le coin supérieur droit pour prendre effet</string>
+    <string name="are_you_sure_reboot">Êtes-vous sûr de vouloir redémarrer ?</string>
+    <string name="cancel">Annuler</string>
+    <string name="are_you_sure_reboot_scope">Êtes-vous sûr de redémarrer SystemUI?</string>
+    <string name="participate_in_translation">Participer à la traduction</string>
+    <string name="participate_in_translation_summary">Aidez-nous à traduire l\'application dans votre langue</string>
+</resources>
