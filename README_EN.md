@@ -8,14 +8,14 @@
    <a href="https://github.com/Simplicity-Team/WooBoxForColorOS/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Simplicity-Team/WooBoxForColorOS"></a>
    <a href="https://github.com/Simplicity-Team/WooBoxForColorOS/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Simplicity-Team/WooBoxForColorOS"></a>
    <a href="https://github.com/Simplicity-Team/WooBoxForColorOS/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/Simplicity-Team/WooBoxForColorOS"></a>
-   <p>A system extension Xposed module based on MIUI13 (Android12) </p>
+   <p>A system extension Xposed module based on ColorOS12 (Android12) </p>
 </div>
 
 ---
 
 ### Description
 
-Only MIUI13 (Android12) is supported. The rest of the versions not be valid.  
+Only ColorOS12 (Android12) is supported. The rest of the versions not be valid.  
 
 ---
 
