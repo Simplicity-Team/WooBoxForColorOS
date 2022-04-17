@@ -7,7 +7,7 @@ import de.robv.android.xposed.callbacks.XC_LoadPackage
 
 abstract class AppRegister: IXposedHookLoadPackage {
 
-    abstract val packageName: String
+    abstract val packageName: List<String>
     abstract val processName: List<String>
     abstract val logTag: String
 

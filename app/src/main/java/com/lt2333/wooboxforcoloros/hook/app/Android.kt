@@ -7,7 +7,7 @@ import de.robv.android.xposed.XposedBridge
 import de.robv.android.xposed.callbacks.XC_LoadPackage
 
 object Android : AppRegister() {
-    override val packageName: String = "android"
+    override val packageName: List<String> = listOf("android")
     override val processName: List<String> = emptyList()
     override val logTag: String = "WooBox"
 

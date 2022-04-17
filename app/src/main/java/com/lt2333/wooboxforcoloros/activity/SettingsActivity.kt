@@ -106,6 +106,13 @@ class SettingsActivity : MIUIActivity() {
                         onClickListener = { showFragment("scope_android") }
                     )
                 )
+                TextSummaryArrow(
+                    TextSummaryV(
+                        textId = R.string.scope_other,
+                        tipsId = R.string.scope_other_summary,
+                        onClickListener = { showFragment("scope_other") }
+                    )
+                )
                 Line()
                 TitleText(resId = R.string.about)
                 TextSummaryArrow(
@@ -123,6 +130,12 @@ class SettingsActivity : MIUIActivity() {
                     TextSummaryV(
                         textId = R.string.double_tap_to_sleep
                     ), SwitchV("status_bar_double_tap_to_sleep")
+                )
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.hide_prompt_view,
+                        tipsId = R.string.hide_prompt_view_summary
+                    ), SwitchV("hide_prompt_view")
                 )
                 Line()
                 TitleText(resId = R.string.quick_settings_panel)
@@ -282,6 +295,24 @@ class SettingsActivity : MIUIActivity() {
                     30,
                     30, dataBindingRecv = mediaVolumeStepsSwitchBinding.binding.getRecv(2)
                 )
+            }
+            register("scope_other", getString(R.string.scope_other), false) {
+                TitleText(resId = R.string.scope_security_center)
+                TextSummaryWithSwitch(
+                    TextSummaryV(textId = R.string.unlock_self_start_quantity),
+                    SwitchV("unlock_self_start_quantity")
+                )
+                Line()
+                TitleText(resId = R.string.scope_launcher)
+                TextSummaryWithSwitch(
+                    TextSummaryV(textId = R.string.unlock_recent_task_locks_quantity),
+                    SwitchV("unlock_recent_task_locks_quantity")
+                )
+                TextSummaryWithSwitch(
+                    TextSummaryV(textId = R.string.launcher_remove_update_dot, tipsId = R.string.launcher_remove_update_dot_summary),
+                    SwitchV("launcher_remove_update_dot")
+                )
+
             }
             register("about_module", getString(R.string.about_module), true) {
                 Author(
@@ -491,7 +522,9 @@ class SettingsActivity : MIUIActivity() {
                             }
                             setRButton(R.string.Done) {
                                 val command = arrayOf(
-                                    "killall com.android.systemui"
+                                    "killall com.android.systemui",
+                                    "killall com.android.launcher",
+                                    "killall com.oplus.safecenter",
                                 )
                                 ShellUtils.execCommand(command, true)
                                 dismiss()

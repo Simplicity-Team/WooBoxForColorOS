@@ -15,7 +15,7 @@ abstract class EasyXposedInit: IXposedHookLoadPackage, IXposedHookZygoteInit {
     override fun handleLoadPackage(lpparam: XC_LoadPackage.LoadPackageParam?) {
         packageParam = lpparam!!
         registeredApp.forEach { app ->
-            if (app.packageName == lpparam.packageName && (lpparam.processName in app.processName || app.processName.isEmpty())) {
+            if ((lpparam.packageName in app.packageName) && (lpparam.processName in app.processName || app.processName.isEmpty())) {
                 EzXHelperInit.initHandleLoadPackage(lpparam)
                 EzXHelperInit.setLogTag(app.logTag)
                 EzXHelperInit.setToastTag(app.logTag)
