@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="delete_on_post_notification">Elimină notificarea Afișare peste</string>
-    <string name="delete_on_post_notification_summary">Elimină notificarea \"Această aplicație se afișează peste alte aplicații\"</string>
     <string name="other">Altele</string>
-    <string name="disable_flag_secure">Permite captură de ecran</string>
-    <string name="disable_flag_secure_summary">Permite captură de ecran în aplicațiile care nu permit\nAcceptă adăugarea setărilor rapide în Centrul de control pentru securitate</string>
     <string name="reboot_host">Repornire interfață utilizator</string>
     <string name="reboot">Repornire sistem</string>
     <!--Status bar icons-->
@@ -15,12 +11,10 @@
     <string name="issues">Feedback/Propunere</string>
     <string name="issues_url">Clic pentru a vizualiza problemele pe GitHub</string>
     <string name="xposeddescription">Instrument de personalizare pentru MIUI13 (Android 12)</string>
-    <string name="statusbar">Bară de stare</string>
     <string name="main_switch">Comutatorul principal al modulului</string>
     <string name="menu">Meniu</string>
     <string name="Tips">Sfaturi</string>
     <string name="HideLauncherIcon">Ascunde pictograma în lansator</string>
-    <string name="allow_screenshots">Permite captură ecran</string>
     <string name="matters_needing_attention">Aplicația nu funcționează? </string>
     <string name="Done">OK</string>
     <string name="about_module_summary">Vizualizează informații legate de modul</string>
@@ -28,18 +22,12 @@
     <string name="developer">Dezvoltator</string>
     <string name="thank_list">Listă de mulțumiri</string>
     <string name="third_party_open_source_statement">Declarație Open Source terță parte</string>
-    <string name="corepacth">Elimină restricțiile</string>
     <string name="app_coolapk_url">Vino și dă-ne o evaluare de cinci stele</string>
     <string name="app_coolapk_url_summary">Aceasta ne va ajuta în dezvoltarea proiectului</string>
     <string name="qq_channel">Alătură-te canalului oficial QQ</string>
     <string name="tg_channel">Alătură-te canalului oficial TG</string>
     <string name="tg_channel_summary">Poți intra în grupul de discuții pe pagina canalului</string>
     <string name="discussions">Discuții</string>
-    <string name="scope">Domeniu</string>
-    <string name="scope_android">Framework sistem</string>
-    <string name="scope_systemui">Interfață sistem</string>
-    <string name="scope_systemui_summary">Personalizează interfața de sistem, bara de stare, ecranul de blocare etc.</string>
-    <string name="scope_android_summary">După activarea modulului pentru prima dată sau după actualizare, opțiunile de aici vor intra în vigoare după repornirea sistemului</string>
     <string name="not_support">Se pare că utilizezi o versiune învechită a LSPosed sau LSPosed nu este activ. Actualizează LSPosed sau activează-l și încearcă din nou.</string>
     <string name="matters_needing_attention_context">Se recomandă repornirea telefonului după prima activare sau actualizare\nCele mai multe modificări necesită repornire pentru a avea efect - trei puncte din colțul din dreapta sus</string>
     <string name="are_you_sure_reboot">Sigur repornești?</string>
@@ -47,11 +35,8 @@
     <string name="are_you_sure_reboot_scope">Sigur repornești interfața utilizatorului?</string>
     <string name="participate_in_translation">Participă în traducere</string>
     <string name="participate_in_translation_summary">Ajută-ne să traducem aplicația</string>
-    <string name="double_tap_to_sleep">Apăsare dublă pentru a opri ecranul</string>
-    <string name="qs_custom_columns_unexpanded">Coloane (Restrâns)</string>
-    <string name="qs_custom_rows">Rânduri</string>
-    <string name="qs_custom_columns">Coloane</string>
-    <string name="qs_custom_rows_horizontal">Rânduri (orizontal)</string>
+    <string name="scope_android">Framework sistem</string>
+    <string name="corepacth">Elimină restricțiile</string>
     <string name="downgr">Permite downgrade</string>
     <string name="downgr_summary">Permite retrogradarea aplicațiilor.</string>
     <string name="authcreak">Dezactivare verificare digest</string>
@@ -62,5 +47,27 @@
     <string name="UsePreSig_summary">Se folosesc întotdeauna semnături din aplicațiile deja instalate.\nAcest lucru este extrem de <b>periculos</b>.\nActiveză numai dacă este cu adevărat necesar!</string>
     <string name="enhancedMode">Mod îmbunătățit</string>
     <string name="enhancedMode_summary">Trece o anumită validare în aplicație</string>
+    <string name="disable_flag_secure">Permite captură de ecran</string>
+    <string name="disable_flag_secure_summary">Permite captură de ecran în aplicațiile care nu permit\nAcceptă adăugarea setărilor rapide în Centrul de control pentru securitate</string>
+    <string name="delete_on_post_notification">Elimină notificarea Afișare peste</string>
+    <string name="delete_on_post_notification_summary">Elimină notificarea \"Această aplicație se afișează peste alte aplicații\"</string>
+    <string name="allow_untrusted_touches">"Allow untrusted touches"</string>
+    <string name="take_effect_after_reboot">Take effect after reboot</string>
     <string name="sound">Sunet</string>
+    <string name="media_volume_steps_switch">Media volume steps</string>
+    <string name="media_volume_steps_summary">Turning on may cause the scrolling of the volume bar to freeze or the Bluetooth volume to be abnormal</string>
+    <string name="scope">Domeniu</string>
+    <string name="scope_android_summary">După activarea modulului pentru prima dată sau după actualizare, opțiunile de aici vor intra în vigoare după repornirea sistemului</string>
+    <string name="scope_systemui">Interfață sistem</string>
+    <string name="scope_systemui_summary">Personalizează interfața de sistem, bara de stare, ecranul de blocare etc.</string>
+    <string name="statusbar">Bară de stare</string>
+    <string name="double_tap_to_sleep">Apăsare dublă pentru a opri ecranul</string>
+    <string name="quick_settings_panel">Quick settings panel</string>
+    <string name="qs_custom_switch">Custom rows and columns</string>
+    <string name="qs_custom_rows">Rânduri</string>
+    <string name="qs_custom_rows_horizontal">Rânduri (orizontal)</string>
+    <string name="qs_custom_columns">Coloane</string>
+    <string name="qs_custom_columns_unexpanded">Coloane (Restrâns)</string>
+    <string name="qs_custom_switch_summary">The specific upper limit is determined by the display density</string>
+    <string name="allow_screenshots">Permite captură ecran</string>
 </resources>
