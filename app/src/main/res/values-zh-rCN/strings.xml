@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="delete_on_post_notification">移除上层显示通知</string>
+    <string name="delete_on_post_notification_summary">移除 \"此应用正显示在屏幕上其他应用的上层\" 通知</string>
     <string name="other">其他</string>
+    <string name="disable_flag_secure">允许截图</string>
+    <string name="disable_flag_secure_summary">开启后允许在不允许截图的软件中截图\n支持添加下拉控制中心快速开关，保障安全</string>
     <string name="reboot_host">重启全部作用域</string>
     <string name="reboot">重启系统</string>
     <!--Status bar icons-->
@@ -10,11 +14,13 @@
     <string name="github_url">欢迎更多开发者共同参与开发</string>
     <string name="issues">反馈/提议</string>
     <string name="issues_url">点击查看GitHub Issues</string>
-    <string name="xposeddescription">基于 ColorOS12(Android 12) 适配的自定义工具</string>
+    <string name="xposeddescription">基于 MIUI13(Android 12) 适配的自定义工具</string>
+    <string name="statusbar">状态栏</string>
     <string name="main_switch">模块总开关</string>
     <string name="menu">菜单</string>
     <string name="Tips">提示</string>
     <string name="HideLauncherIcon">隐藏桌面图标</string>
+    <string name="allow_screenshots">允许截图</string>
     <string name="matters_needing_attention">功能无法生效？</string>
     <string name="Done">确定</string>
     <string name="about_module_summary">查看模块相关信息</string>
@@ -22,12 +28,18 @@
     <string name="developer">开发者</string>
     <string name="thank_list">感谢名单</string>
     <string name="third_party_open_source_statement">第三方开源声明</string>
+    <string name="corepacth">解除安装限制</string>
     <string name="app_coolapk_url">来酷安给我们五星好评</string>
     <string name="app_coolapk_url_summary">这可以使我们被更多的人发现</string>
     <string name="qq_channel">加入 官方QQ频道</string>
     <string name="tg_channel">加入 官方TG频道</string>
     <string name="tg_channel_summary">可在频道资料页进入交流群</string>
     <string name="discussions">讨论</string>
+    <string name="scope">作用域</string>
+    <string name="scope_android">系统框架</string>
+    <string name="scope_systemui">系统界面</string>
+    <string name="scope_systemui_summary">自定义系统界面、状态栏、锁屏等</string>
+    <string name="scope_android_summary">首次激活模块 或 模块更新后，\n此处的功能需重启系统后才能生效</string>
     <string name="not_support">您似乎正在使用过时的 LSPosed 版本或 LSPosed 未激活，请更新 LSPosed 或者激活后再试。</string>
     <string name="matters_needing_attention_context">首次激活或更新后建议重启手机\n绝大部分功能更改后需要在右上角重启作用域后生效</string>
     <string name="are_you_sure_reboot">确定重启系统？</string>
@@ -35,4 +47,27 @@
     <string name="are_you_sure_reboot_scope">确定重启全部作用域？</string>
     <string name="participate_in_translation">参与翻译</string>
     <string name="participate_in_translation_summary">帮助我们将应用翻译成您的语言</string>
+    <string name="double_tap_to_sleep">双击锁定屏幕</string>
+    <string name="qs_custom_columns_unexpanded">列 (未展开)</string>
+    <string name="qs_custom_rows">行</string>
+    <string name="qs_custom_columns">列</string>
+    <string name="qs_custom_rows_horizontal">行 (横向)</string>
+    <string name="downgr">允许降级安装应用</string>
+    <string name="downgr_summary">允许应用在安装新版本的情况下直接覆盖安装旧版本</string>
+    <string name="authcreak">禁用软件包管理器签名验证</string>
+    <string name="authcreak_summary">关闭安装应用时的签名验证，可以安装被篡改的应用</string>
+    <string name="digestCreak">禁用APK签名验证</string>
+    <string name="digestCreak_summary">允许直接覆盖安装同包名不同签名的应用</string>
+    <string name="UsePreSig">安装时始终使用已装app的签名</string>
+    <string name="UsePreSig_summary">安装时总是使用已安装应用的签名。\n不是一般的<b>危险</b>\n仅在绝对需要时启用</string>
+    <string name="enhancedMode">增强模式</string>
+    <string name="enhancedMode_summary">可以解决一些APP内部的完整性校验，一般不需要开启</string>
+    <string name="sound">声音</string>
+    <string name="media_volume_steps_switch">媒体音量阶数</string>
+    <string name="allow_untrusted_touches">允许不受信任的触摸</string>
+    <string name="take_effect_after_reboot">重新启动后生效</string>
+    <string name="media_volume_steps_summary">打开可能会导致音量条的滚动卡顿或蓝牙音量异常。</string>
+    <string name="qs_custom_switch">自定义行列数</string>
+    <string name="qs_custom_switch_summary">具体上限由显示密度决定</string>
+    <string name="quick_settings_panel">快速设置面板</string>
 </resources>

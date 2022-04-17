@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="delete_on_post_notification">Hapus tampilan di atas notifikasi</string>
+    <string name="delete_on_post_notification_summary">Hapus pemberitahuan \"Aplikasi ini sedang ditampilkan di atas aplikasi lain\"</string>
     <string name="other">Lainnya</string>
+    <string name="disable_flag_secure">Izinkan tangkapan layar</string>
+    <string name="disable_flag_secure_summary">Izinkan tangkapan layar dalam perangkat lunak yang tidak mengizinkan\nMendukung penambahan setelan jalan pintas di Pusat kendali demi keamanan</string>
     <string name="reboot_host">Mulai ulang semua cakupan</string>
     <string name="reboot">Mulai Ulang Sistem</string>
     <!--Status bar icons-->
@@ -10,11 +14,13 @@
     <string name="github_url">Selamat datang lebih banyak developer untuk berpartisipasi dalam pengembangan</string>
     <string name="issues">Umpan Balik/Usulan</string>
     <string name="issues_url">Klik untuk melihat Masalah GitHub</string>
-    <string name="xposeddescription">Alat perubahan untuk ColorOS12 (Android 12)</string>
+    <string name="xposeddescription">Alat perubahan untuk MIUI13 (Android 12)</string>
+    <string name="statusbar">Status bar</string>
     <string name="main_switch">Tombol modul</string>
     <string name="menu">Menu</string>
     <string name="Tips">Tips</string>
     <string name="HideLauncherIcon">Sembunyikan ikon launcher</string>
+    <string name="allow_screenshots">Izinkan cuplikan layar</string>
     <string name="matters_needing_attention">Fitur tidak berjalan? </string>
     <string name="Done">OK</string>
     <string name="about_module_summary">Lihat informasi terkait modul</string>
@@ -22,12 +28,18 @@
     <string name="developer">Developer</string>
     <string name="thank_list">Daftar ucapan terimakasih</string>
     <string name="third_party_open_source_statement">Pernyataan Sumber Terbuka Pihak Ketiga</string>
+    <string name="corepacth">Hapus pembatasan</string>
     <string name="app_coolapk_url">Ayo datang dan beri kami ulasan bintang lima</string>
     <string name="app_coolapk_url_summary">Ini membuat kita lebih mudah ditemukan</string>
     <string name="qq_channel">Bergabunglah dengan saluran QQ resmi</string>
     <string name="tg_channel">Bergabunglah dengan saluran TG resmi</string>
     <string name="tg_channel_summary">Anda dapat masuk ke grup obrolan di halaman saluran</string>
     <string name="discussions">Diskusi</string>
+    <string name="scope">Jangkauan</string>
+    <string name="scope_android">Kerangka Sistem</string>
+    <string name="scope_systemui">Tampilan Sistem</string>
+    <string name="scope_systemui_summary">Perubahan antarmuka sistem, bilah status, layar kunci, dll.</string>
+    <string name="scope_android_summary">Setelah mengaktifkan modul untuk pertama kalinya atau modul diperbarui, fitur di sini akan berlaku setelah memulai ulang sistem</string>
     <string name="not_support">Anda sepertinya menggunakan LSPosed versi lama atau LSPosed tidak aktif, harap perbarui LSPosed atau aktifkan dan coba lagi.</string>
     <string name="matters_needing_attention_context">Disarankan untuk me-restart perangkat setelah aktivasi atau pembaruan pertama \nSebagian besar perubahan memerlukan restart di sudut kanan atas untuk diterapkan</string>
     <string name="are_you_sure_reboot">Apakah Anda yakin untuk mulai ulang?</string>
@@ -35,4 +47,9 @@
     <string name="are_you_sure_reboot_scope">Apakah Anda yakin untuk mulai ulang semua cakupan?</string>
     <string name="participate_in_translation">Partisipasi dalam penejermahan</string>
     <string name="participate_in_translation_summary">Bantu kami menerjemahkan aplikasi ke dalam bahasa Anda</string>
+    <string name="double_tap_to_sleep">Ketuk ganda untuk tidur</string>
+    <string name="qs_custom_columns_unexpanded">Kolom (tidak diperluas)</string>
+    <string name="qs_custom_rows">Baris</string>
+    <string name="qs_custom_columns">Kolom</string>
+    <string name="qs_custom_rows_horizontal">Baris (Horizontal)</string>
 </resources>
