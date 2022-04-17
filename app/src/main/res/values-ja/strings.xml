@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="delete_on_post_notification">「他のアプリの上に表示」通知を削除</string>
-    <string name="delete_on_post_notification_summary">「このアプリは他のアプリの上に表示されています」通知を削除します</string>
     <string name="other">その他</string>
-    <string name="disable_flag_secure">スクリーンショットを許可</string>
-    <string name="disable_flag_secure_summary">許可されていないアプリのスクリーンショットを許可します\nセキュリティのため、クイック設定に「許可／禁止」を切り替えるトグルを追加します</string>
     <string name="reboot_host">すべてのスコープを再起動する</string>
     <string name="reboot">システムを再起動する</string>
     <!--Status bar icons-->
@@ -15,31 +11,22 @@
     <string name="issues">ご意見・ご提案</string>
     <string name="issues_url">クリックして GitHub Issues を表示する</string>
     <string name="xposeddescription">MIUI13(Android 12)のカスタマイズツール</string>
-    <string name="statusbar">ステータスバー</string>
     <string name="main_switch">モジュールのメインスイッチ</string>
     <string name="menu">メニュー</string>
     <string name="Tips">注意事項</string>
     <string name="HideLauncherIcon">ランチャーアイコンを隠す</string>
-    <string name="allow_screenshots">スクリーンショットを許可</string>
     <string name="matters_needing_attention">機能が動作していませんか？ </string>
-    <string name="Done">OK</string>
     <string name="about_module_summary">モジュール関連情報を表示</string>
     <string name="contributor_list">オープンソースリポジトリの貢献者一覧</string>
     <string name="developer">開発者</string>
     <string name="thank_list">感謝リスト</string>
     <string name="third_party_open_source_statement">サードパーティーのオープンソースに関する声明</string>
-    <string name="corepacth">インストール制限を削除</string>
     <string name="app_coolapk_url">5つ星のレビューをお願いします。</string>
     <string name="app_coolapk_url_summary">これにより、より多くの発見が可能になります</string>
     <string name="qq_channel">公式QQチャンネルに参加する</string>
     <string name="tg_channel">公式telegramチャンネルに参加する</string>
     <string name="tg_channel_summary">チャンネルページにチャットグループを入力することができます</string>
     <string name="discussions">討論</string>
-    <string name="scope">範囲</string>
-    <string name="scope_android">システムフレームワーク</string>
-    <string name="scope_systemui">システム UI</string>
-    <string name="scope_systemui_summary">システムインターフェース、ステータスバー、ロック画面などをカスタマイズする</string>
-    <string name="scope_android_summary">初めてモジュールを有効にした後、またはモジュールが更新された後、システムを再起動した後にここの機能が有効になります</string>
     <string name="not_support">古いバージョンの LSPosed を使用しているか、または、LSPosed がアクティブではないようです。LSPosed を更新するか、それを有効にしてもう一度やり直してください。</string>
     <string name="matters_needing_attention_context">最初のインストールまたは更新後は端末を再起動することをお勧めします\n多くの変更は右上隅から再起動することで適用されます</string>
     <string name="are_you_sure_reboot">再起動しますか？</string>
@@ -47,11 +34,8 @@
     <string name="are_you_sure_reboot_scope">全てのスコープを再起動しますか？</string>
     <string name="participate_in_translation">翻訳に参加する</string>
     <string name="participate_in_translation_summary">翻訳を手伝ってください！</string>
-    <string name="double_tap_to_sleep">2回タップでスリープ</string>
-    <string name="qs_custom_columns_unexpanded">縦（未展開時）</string>
-    <string name="qs_custom_rows">横</string>
-    <string name="qs_custom_columns">縦</string>
-    <string name="qs_custom_rows_horizontal">横（横持ち時）</string>
+    <string name="scope_android">システムフレームワーク</string>
+    <string name="corepacth">インストール制限を削除</string>
     <string name="downgr">ダウングレードを許可</string>
     <string name="downgr_summary">アプリのダウングレードを許可します。</string>
     <string name="authcreak">ダイジェスト認証を無効にする</string>
@@ -62,4 +46,19 @@
     <string name="UsePreSig_summary">アプリのインストール時に、常に既存アプリの署名を使用します。\nこのオプションは<b>めちゃくちゃ危険</b>です。\n本当に必要なときだけ有効にしてください！！</string>
     <string name="enhancedMode">強化モード</string>
     <string name="enhancedMode_summary">アプリケーションでいくつかの検証に合格する</string>
+    <string name="disable_flag_secure">スクリーンショットを許可</string>
+    <string name="disable_flag_secure_summary">許可されていないアプリのスクリーンショットを許可します\nセキュリティのため、クイック設定に「許可／禁止」を切り替えるトグルを追加します</string>
+    <string name="delete_on_post_notification">「他のアプリの上に表示」通知を削除</string>
+    <string name="delete_on_post_notification_summary">「このアプリは他のアプリの上に表示されています」通知を削除します</string>
+    <string name="scope">範囲</string>
+    <string name="scope_android_summary">初めてモジュールを有効にした後、またはモジュールが更新された後、システムを再起動した後にここの機能が有効になります</string>
+    <string name="scope_systemui">システム UI</string>
+    <string name="scope_systemui_summary">システムインターフェース、ステータスバー、ロック画面などをカスタマイズする</string>
+    <string name="statusbar">ステータスバー</string>
+    <string name="double_tap_to_sleep">2回タップでスリープ</string>
+    <string name="qs_custom_rows">横</string>
+    <string name="qs_custom_rows_horizontal">横（横持ち時）</string>
+    <string name="qs_custom_columns">縦</string>
+    <string name="qs_custom_columns_unexpanded">縦（未展開時）</string>
+    <string name="allow_screenshots">スクリーンショットを許可</string>
 </resources>

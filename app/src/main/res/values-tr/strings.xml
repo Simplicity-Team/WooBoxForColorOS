@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="delete_on_post_notification">Bildirim üzerinden ekranı kaldır</string>
-    <string name="delete_on_post_notification_summary">\"Bu uygulama diğer uygulamaların üzerinde görüntüleniyor\" bildirimini kaldırın</string>
     <string name="other">Diğer </string>
-    <string name="disable_flag_secure">Ekran görüntüsüne izin ver</string>
-    <string name="disable_flag_secure_summary">Güvenlik için Kontrol merkezinde açılır hızlı ayar eklemeye izin vermeyen yazılımda ekran görüntüsüne izin ver</string>
     <string name="reboot_host">Cihazı yeniden başlat</string>
     <string name="reboot">Sistemi Yeniden Başlat </string>
     <!--Status bar icons-->
@@ -15,12 +11,10 @@
     <string name="issues">Geribildirim/Teklif</string>
     <string name="issues_url">GitHub Sorunlarını görüntülemek için tıklayın</string>
     <string name="xposeddescription">MIUI13 (Android 12) için özelleştirme aracı</string>
-    <string name="statusbar">Durum çubuğu</string>
     <string name="main_switch">Modül ana şalteri</string>
     <string name="menu">Menü</string>
     <string name="Tips">İpuçları</string>
     <string name="HideLauncherIcon">Başlatıcı simgesini gizle</string>
-    <string name="allow_screenshots">Ekran görüntüsüne izin ver</string>
     <string name="matters_needing_attention">Özellik çalışmıyor mu?</string>
     <string name="Done">Tamam</string>
     <string name="about_module_summary">Modülle ilgili bilgileri görüntüleyin</string>
@@ -28,18 +22,12 @@
     <string name="developer">Geliştirici</string>
     <string name="thank_list">Teşekkürler listesi</string>
     <string name="third_party_open_source_statement">Üçüncü Taraf Açık Kaynak Bildirimi</string>
-    <string name="corepacth">Kısıtlamaları kaldır</string>
     <string name="app_coolapk_url">Gelin ve bize beş yıldızlı bir inceleme yapın</string>
     <string name="app_coolapk_url_summary">Bu bizi daha keşfedilebilir yapabilir</string>
     <string name="qq_channel">Resmi QQ kanalına katılın</string>
     <string name="tg_channel">Resmi Telegram kanalına katılın</string>
     <string name="tg_channel_summary">Sohbet grubuna kanal sayfasından girebilirsiniz.</string>
     <string name="discussions">Tartışmalar</string>
-    <string name="scope">Kapsam</string>
-    <string name="scope_android">Sistem Çerçevesi</string>
-    <string name="scope_systemui">Sistem Kullanıcı Arayüzü</string>
-    <string name="scope_systemui_summary">Sistem arayüzünü, durum çubuğunu, kilit ekranını vb. özelleştirin.</string>
-    <string name="scope_android_summary">Modül ilk kez etkinleştirildikten veya modül güncellendikten sonra, sistem yeniden başlatıldıktan sonra buradaki özellik geçerli olacaktır.</string>
     <string name="not_support">Görünüşe göre eski bir LSPosed sürümü kullanıyorsunuz veya LSPosed aktif değil, lütfen LSPosed\'i güncelleyin veya etkinleştirin ve tekrar deneyin.</string>
     <string name="matters_needing_attention_context">İlk etkinleştirme veya güncellemeden sonra telefonu yeniden başlatmanız önerilir\nDeğişikliklerin çoğunun geçerli olması için sağ üst köşede yeniden başlatma gerekir</string>
     <string name="are_you_sure_reboot">Yeniden başlattığınızdan emin misiniz?</string>
@@ -47,11 +35,8 @@
     <string name="are_you_sure_reboot_scope">Tüm kapsamı yeniden başlattığınızdan emin misiniz?</string>
     <string name="participate_in_translation">Çeviriye katılmak</string>
     <string name="participate_in_translation_summary">Uygulamayı kendi dilinize çevirmemize yardımcı olun</string>
-    <string name="double_tap_to_sleep">Uyumak için iki kez dokunun</string>
-    <string name="qs_custom_columns_unexpanded">Sütunlar (Genişletilmemiş)</string>
-    <string name="qs_custom_rows">satırlar</string>
-    <string name="qs_custom_columns">sütunlar</string>
-    <string name="qs_custom_rows_horizontal">Satırlar (yatay)</string>
+    <string name="scope_android">Sistem Çerçevesi</string>
+    <string name="corepacth">Kısıtlamaları kaldır</string>
     <string name="downgr">Sürüm düşürmeye izin ver</string>
     <string name="downgr_summary">Sürüm düşürme uygulamalarına izin ver.</string>
     <string name="authcreak">Özet doğrulamayı devre dışı bırak</string>
@@ -62,4 +47,19 @@
     <string name="UsePreSig_summary">Yüklerken her zaman önceden yüklenmiş uygulamaların imzalarını kullanın.\nBu son derece <b>tehlikelidir</b>.\nYalnızca gerçekten gerektiğinde etkinleştirin!</string>
     <string name="enhancedMode">Gelişmiş Mod</string>
     <string name="enhancedMode_summary">Uygulamada bazı doğrulamaları geç</string>
+    <string name="disable_flag_secure">Ekran görüntüsüne izin ver</string>
+    <string name="disable_flag_secure_summary">Güvenlik için Kontrol merkezinde açılır hızlı ayar eklemeye izin vermeyen yazılımda ekran görüntüsüne izin ver</string>
+    <string name="delete_on_post_notification">Bildirim üzerinden ekranı kaldır</string>
+    <string name="delete_on_post_notification_summary">\"Bu uygulama diğer uygulamaların üzerinde görüntüleniyor\" bildirimini kaldırın</string>
+    <string name="scope">Kapsam</string>
+    <string name="scope_android_summary">Modül ilk kez etkinleştirildikten veya modül güncellendikten sonra, sistem yeniden başlatıldıktan sonra buradaki özellik geçerli olacaktır.</string>
+    <string name="scope_systemui">Sistem Kullanıcı Arayüzü</string>
+    <string name="scope_systemui_summary">Sistem arayüzünü, durum çubuğunu, kilit ekranını vb. özelleştirin.</string>
+    <string name="statusbar">Durum çubuğu</string>
+    <string name="double_tap_to_sleep">Uyumak için iki kez dokunun</string>
+    <string name="qs_custom_rows">satırlar</string>
+    <string name="qs_custom_rows_horizontal">Satırlar (yatay)</string>
+    <string name="qs_custom_columns">sütunlar</string>
+    <string name="qs_custom_columns_unexpanded">Sütunlar (Genişletilmemiş)</string>
+    <string name="allow_screenshots">Ekran görüntüsüne izin ver</string>
 </resources>
