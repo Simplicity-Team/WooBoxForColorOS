@@ -73,4 +73,13 @@
     <string name="qs_custom_columns_unexpanded">Columns (Unexpanded)</string>
     <string name="qs_custom_switch_summary">The specific upper limit is determined by the display density</string>
     <string name="allow_screenshots">Allow screenshot</string>
+    <string name="scope_other">Other</string>
+    <string name="scope_other_summary">Phone Manager, Battery and performance, etc.</string>
+    <string name="scope_phone_manager">Phone Manager</string>
+    <string name="scope_launcher">Launcher</string>
+    <string name="unlock_the_limit_on_the_number_of_recent_task_locks">Unlock the limit on the number of recent task locks</string>
+    <string name="launcher_more_layout">More layout</string>
+    <string name="launcher_more_layout_summary">More layout options(3x5 ~ 6x7).</string>
+    <string name="launcher_remove_update_dot">Remove APP update dot</string>
+    <string name="launcher_remove_update_dot_summary">Undisplay a dot next to the name of updated apps.</string>
 </resources>
