@@ -38,9 +38,8 @@ class SettingsActivity : MIUIActivity() {
     //检测LSPosed是否激活
     @SuppressLint("WorldReadableFiles")
     private fun checkLSPosed() {
-        setSP(getSharedPreferences("config", MODE_WORLD_READABLE))
         try {
-
+            setSP(getSharedPreferences("config", MODE_WORLD_READABLE))
         } catch (exception: SecurityException) {
             isLoad = false
             MIUIDialog(this) {
