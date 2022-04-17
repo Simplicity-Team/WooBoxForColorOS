@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="other">Outros</string>
     <!--Status bar icons-->
+    <string name="disable_flag_secure">Permitir captura de ecrã</string>
+    <string name="delete_on_post_notification">Remover exibição sobre notificação</string>
+    <string name="delete_on_post_notification_summary">Remover a notificação \"este aplicativo é exibido sobre outros aplicativos\"</string>
 </resources>
