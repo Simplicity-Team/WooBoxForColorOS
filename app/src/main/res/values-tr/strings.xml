@@ -10,7 +10,7 @@
     <string name="github_url">Geliştirmeye katılmak için daha fazla geliştiriciye hoş geldiniz</string>
     <string name="issues">Geribildirim/Teklif</string>
     <string name="issues_url">GitHub Sorunlarını görüntülemek için tıklayın</string>
-    <string name="xposeddescription">MIUI13 (Android 12) için özelleştirme aracı</string>
+    <string name="xposeddescription">" ColorOS12 (Android 12) için özelleştirme aracı"</string>
     <string name="main_switch">Modül ana şalteri</string>
     <string name="menu">Menü</string>
     <string name="Tips">İpuçları</string>

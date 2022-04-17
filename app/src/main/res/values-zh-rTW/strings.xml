@@ -10,7 +10,7 @@
     <string name="github_url">歡迎更多開發者共同參與開發</string>
     <string name="issues">回饋/提議</string>
     <string name="issues_url">點擊查看GitHub Issues</string>
-    <string name="xposeddescription">基於 MIUI13(Android 12) 適配的自訂工具</string>
+    <string name="xposeddescription">基於  ColorOS12(Android 12) 適配的自訂工具</string>
     <string name="main_switch">模組總開關</string>
     <string name="menu">選單</string>
     <string name="Tips">提示</string>
