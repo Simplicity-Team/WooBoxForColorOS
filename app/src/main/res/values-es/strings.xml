@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="delete_on_post_notification">Eliminar notificación de mostrar encima</string>
-    <string name="delete_on_post_notification_summary">Eliminar la notificación \"Está aplicación se está mostrando sobre otras aplicaciones\"</string>
     <string name="other">Otro</string>
-    <string name="disable_flag_secure">Permitir capturas de pantalla</string>
-    <string name="disable_flag_secure_summary">Permite realizar capturas de pantalla en aplicaciones que no lo permiten\nPor seguridad permite añadir un ajuste rápido en el Centro de Control</string>
     <string name="reboot_host">Reinicia todo el ámbito</string>
     <string name="reboot">Reiniciar el sistema</string>
     <!--Status bar icons-->
@@ -15,31 +11,22 @@
     <string name="issues">Comentarios/Sugerencias</string>
     <string name="issues_url">Clic para ver errores en GitHub</string>
     <string name="xposeddescription">Herramienta de personalización para MIUI13 (Android 12)</string>
-    <string name="statusbar">Barra de estado</string>
     <string name="main_switch">Interruptor principal del módulo</string>
     <string name="menu">Menú</string>
     <string name="Tips">Consejos</string>
     <string name="HideLauncherIcon">Esconder el icono del Launcher</string>
-    <string name="allow_screenshots">Permitir captura de pantalla</string>
     <string name="matters_needing_attention">¿Alguna característica no funciona? </string>
-    <string name="Done">OK</string>
     <string name="about_module_summary">Ver información relacionada con el módulo</string>
     <string name="contributor_list">Lista de colaboradores del repositorio de código abierto</string>
     <string name="developer">Desarrollador</string>
     <string name="thank_list">Agradecimientos</string>
     <string name="third_party_open_source_statement">Declaración de Código Abierto de Terceros</string>
-    <string name="corepacth">Eliminar restricciones</string>
     <string name="app_coolapk_url">Ayúdanos con una reseña de cinco estrellas</string>
     <string name="app_coolapk_url_summary">Esto hará que más personas nos encuentren</string>
     <string name="qq_channel">Únete al canal oficial de QQ</string>
     <string name="tg_channel">Únete al canal oficial de TG</string>
     <string name="tg_channel_summary">Pues entrar al grupo de chat desde la página del canal</string>
     <string name="discussions">Discusiones</string>
-    <string name="scope">Ámbito</string>
-    <string name="scope_android">Framework del sistema</string>
-    <string name="scope_systemui">UI del Sistema</string>
-    <string name="scope_systemui_summary">Personaliza la interfaz del sistema, barra de estado, pantalla de bloqueo, etc.</string>
-    <string name="scope_android_summary">Después de activar el módulo por primera vez o al actualizarlo, los cambios serán aplicados después de reiniciar el sistema</string>
     <string name="not_support">Al parecer estás usando una versión antigua de LSPosed o LSPosed no está activo, por favor actualiza LSPosed o actívalo e intenta de nuevo.</string>
     <string name="matters_needing_attention_context">Se recomienda reiniciar el teléfono después de la primera activación o al actualizarla\nLa mayoría de los cambios requieren un reinicio desde la esquina superior derecha para que surtan efecto</string>
     <string name="are_you_sure_reboot">¿Está seguro de reiniciar?</string>
@@ -47,11 +34,8 @@
     <string name="are_you_sure_reboot_scope">¿Está seguro de reiniciar todo el ámbito?</string>
     <string name="participate_in_translation">Participa en la traducción</string>
     <string name="participate_in_translation_summary">Ayúdanos a traducir la app en tu idioma</string>
-    <string name="double_tap_to_sleep">Doble toque para bloquear</string>
-    <string name="qs_custom_columns_unexpanded">Columnas (contraídas)</string>
-    <string name="qs_custom_rows">Filas</string>
-    <string name="qs_custom_columns">Columnas</string>
-    <string name="qs_custom_rows_horizontal">Filas (horizontal)</string>
+    <string name="scope_android">Framework del sistema</string>
+    <string name="corepacth">Eliminar restricciones</string>
     <string name="downgr">Permitir volver a la versión anterior</string>
     <string name="downgr_summary">Permitir volver a la versión anterior de la aplicación.</string>
     <string name="authcreak">Deshabilitar verificación de digest</string>
@@ -62,5 +46,20 @@
     <string name="UsePreSig_summary">Usar siempre las firmas de las aplicaciones instaladas cuando se instale una.\nEsto es extremadamente&lt;b&lt;peligroso&lt;/b&gt;.\n¡Habilitar únicamente cuando sea necesario!</string>
     <string name="enhancedMode">Modo mejorado</string>
     <string name="enhancedMode_summary">Pasar algunas validaciones en la aplicación</string>
+    <string name="disable_flag_secure">Permitir capturas de pantalla</string>
+    <string name="disable_flag_secure_summary">Permite realizar capturas de pantalla en aplicaciones que no lo permiten\nPor seguridad permite añadir un ajuste rápido en el Centro de Control</string>
+    <string name="delete_on_post_notification">Eliminar notificación de mostrar encima</string>
+    <string name="delete_on_post_notification_summary">Eliminar la notificación \"Está aplicación se está mostrando sobre otras aplicaciones\"</string>
     <string name="sound">Sonido</string>
+    <string name="scope">Ámbito</string>
+    <string name="scope_android_summary">Después de activar el módulo por primera vez o al actualizarlo, los cambios serán aplicados después de reiniciar el sistema</string>
+    <string name="scope_systemui">UI del Sistema</string>
+    <string name="scope_systemui_summary">Personaliza la interfaz del sistema, barra de estado, pantalla de bloqueo, etc.</string>
+    <string name="statusbar">Barra de estado</string>
+    <string name="double_tap_to_sleep">Doble toque para bloquear</string>
+    <string name="qs_custom_rows">Filas</string>
+    <string name="qs_custom_rows_horizontal">Filas (horizontal)</string>
+    <string name="qs_custom_columns">Columnas</string>
+    <string name="qs_custom_columns_unexpanded">Columnas (contraídas)</string>
+    <string name="allow_screenshots">Permitir captura de pantalla</string>
 </resources>
