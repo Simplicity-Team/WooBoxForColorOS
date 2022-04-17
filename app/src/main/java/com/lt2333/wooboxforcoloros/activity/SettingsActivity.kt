@@ -27,7 +27,7 @@ class SettingsActivity : MIUIActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         if (BuildConfig.BUILD_TYPE != "debug") {
             AppCenter.start(
-                application, "ae2037d3-9914-4e0c-b02b-f9b2bb2574e5",
+                application, "ce58cd9e-4d80-43d5-ad87-f510e1230840",
                 Analytics::class.java, Crashes::class.java
             )
         }
