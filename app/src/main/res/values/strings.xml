@@ -72,4 +72,5 @@
     <string name="qs_custom_columns">Columns</string>
     <string name="qs_custom_columns_unexpanded">Columns (Unexpanded)</string>
     <string name="qs_custom_switch_summary">The specific upper limit is determined by the display density</string>
+    <string name="allow_screenshots">Allow screenshot</string>
 </resources>
