@@ -6,8 +6,11 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.net.Uri
 import android.os.Bundle
+import android.view.View
+import android.widget.Switch
 import android.widget.Toast
 import cn.fkj233.ui.activity.MIUIActivity
+import cn.fkj233.ui.activity.data.DefValue
 import cn.fkj233.ui.activity.view.SwitchV
 import cn.fkj233.ui.activity.view.TextSummaryV
 import cn.fkj233.ui.dialog.MIUIDialog
@@ -35,8 +38,9 @@ class SettingsActivity : MIUIActivity() {
     //检测LSPosed是否激活
     @SuppressLint("WorldReadableFiles")
     private fun checkLSPosed() {
+        setSP(getSharedPreferences("config", MODE_WORLD_READABLE))
         try {
-            setSP(getSharedPreferences("config", MODE_WORLD_READABLE))
+
         } catch (exception: SecurityException) {
             isLoad = false
             MIUIDialog(this) {
@@ -88,6 +92,22 @@ class SettingsActivity : MIUIActivity() {
                         })
                 )
                 Line()
+                TitleText(resId = R.string.scope)
+                TextSummaryArrow(
+                    TextSummaryV(
+                        textId = R.string.scope_systemui,
+                        tipsId = R.string.scope_systemui_summary,
+                        onClickListener = { showFragment("scope_systemui") }
+                    )
+                )
+                TextSummaryArrow(
+                    TextSummaryV(
+                        textId = R.string.scope_android,
+                        tipsId = R.string.scope_android_summary,
+                        onClickListener = { showFragment("scope_android") }
+                    )
+                )
+                Line()
                 TitleText(resId = R.string.about)
                 TextSummaryArrow(
                     TextSummaryV(
@@ -97,6 +117,172 @@ class SettingsActivity : MIUIActivity() {
                     )
                 )
 
+            }
+            register("scope_systemui", getString(R.string.scope_systemui), false) {
+                TitleText(resId = R.string.statusbar)
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.double_tap_to_sleep
+                    ), SwitchV("status_bar_double_tap_to_sleep")
+                )
+                Line()
+                TitleText(resId = R.string.quick_settings_panel)
+                val oldQSCustomSwitchBinding = GetDataBinding(object : DefValue {
+                    override fun getValue(): Any {
+                        return getSP()!!.getBoolean("qs_custom_switch", false)
+                    }
+                }) { view, flags, data ->
+                    when (flags) {
+                        1 -> (view as Switch).isEnabled = data as Boolean
+                        2 -> view.visibility = if (data as Boolean) View.VISIBLE else View.GONE
+                    }
+                }
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.qs_custom_switch,
+                        tipsId = R.string.qs_custom_switch_summary,
+                        colorId = R.color.purple_700
+                    ),
+                    SwitchV(
+                        "qs_custom_switch",
+                        dataBindingSend = oldQSCustomSwitchBinding.bindingSend
+                    )
+                )
+                Text(
+                    resId = R.string.qs_custom_rows,
+                    dataBindingRecv = oldQSCustomSwitchBinding.binding.getRecv(2)
+                )
+                SeekBarWithText(
+                    "qs_custom_rows",
+                    1,
+                    9,
+                    4,
+                    dataBindingRecv = oldQSCustomSwitchBinding.binding.getRecv(2)
+                )
+                Text(
+                    resId = R.string.qs_custom_rows_horizontal,
+                    dataBindingRecv = oldQSCustomSwitchBinding.binding.getRecv(2)
+                )
+                SeekBarWithText(
+                    "qs_custom_rows_horizontal",
+                    1,
+                    4,
+                    2,
+                    dataBindingRecv = oldQSCustomSwitchBinding.binding.getRecv(2)
+                )
+                Text(
+                    resId = R.string.qs_custom_columns,
+                    dataBindingRecv = oldQSCustomSwitchBinding.binding.getRecv(2)
+                )
+                SeekBarWithText(
+                    "qs_custom_columns",
+                    1,
+                    9,
+                    4,
+                    dataBindingRecv = oldQSCustomSwitchBinding.binding.getRecv(2)
+                )
+                Text(
+                    resId = R.string.qs_custom_columns_unexpanded,
+                    dataBindingRecv = oldQSCustomSwitchBinding.binding.getRecv(2)
+                )
+                SeekBarWithText(
+                    "qs_custom_columns_unexpanded",
+                    1,
+                    10,
+                    6,
+                    dataBindingRecv = oldQSCustomSwitchBinding.binding.getRecv(2)
+                )
+            }
+            register("scope_android", getString(R.string.scope_android), false) {
+                TitleText(resId = R.string.corepacth)
+
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.downgr,
+                        tipsId = R.string.downgr_summary
+                    ),
+                    SwitchV("downgrade")
+                )
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.authcreak,
+                        tipsId = R.string.authcreak_summary
+                    ),
+                    SwitchV("authcreak")
+                )
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.digestCreak,
+                        tipsId = R.string.digestCreak_summary
+                    ),
+                    SwitchV("digestCreak")
+                )
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.UsePreSig,
+                        tipsId = R.string.UsePreSig_summary
+                    ),
+                    SwitchV("UsePreSig")
+                )
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.enhancedMode,
+                        tipsId = R.string.enhancedMode_summary
+                    ),
+                    SwitchV("enhancedMode")
+                )
+                Line()
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.disable_flag_secure,
+                        tipsId = R.string.disable_flag_secure_summary
+                    ),
+                    SwitchV("disable_flag_secure")
+                )
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.delete_on_post_notification,
+                        tipsId = R.string.delete_on_post_notification_summary
+                    ),
+                    SwitchV("delete_on_post_notification")
+                )
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.allow_untrusted_touches,
+                        tipsId = R.string.take_effect_after_reboot
+                    ),
+                    SwitchV("allow_untrusted_touches")
+                )
+                Line()
+                TitleText(resId = R.string.sound)
+                val mediaVolumeStepsSwitchBinding = GetDataBinding(
+                    object : DefValue {
+                        override fun getValue(): Any {
+                            return getSP()!!.getBoolean("media_volume_steps_switch", false)
+                        }
+                    }
+                ) { view, flags, data ->
+                    when (flags) {
+                        1 -> (view as Switch).isEnabled = data as Boolean
+                        2 -> view.visibility = if (data as Boolean) View.VISIBLE else View.GONE
+                    }
+                }
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.media_volume_steps_switch,
+                        tips = "${getString(R.string.take_effect_after_reboot)}\n${getString(R.string.media_volume_steps_summary)}"
+                    ),
+                    SwitchV(
+                        "media_volume_steps_switch",
+                        dataBindingSend = mediaVolumeStepsSwitchBinding.bindingSend
+                    )
+                )
+                SeekBarWithText(
+                    "media_volume_steps",
+                    15,
+                    30,
+                    30, dataBindingRecv = mediaVolumeStepsSwitchBinding.binding.getRecv(2)
+                )
             }
             register("about_module", getString(R.string.about_module), true) {
                 Author(
@@ -305,7 +491,8 @@ class SettingsActivity : MIUIActivity() {
                                 dismiss()
                             }
                             setRButton(R.string.Done) {
-                                val command = arrayOf(""
+                                val command = arrayOf(
+                                    "killall com.android.systemui"
                                 )
                                 ShellUtils.execCommand(command, true)
                                 dismiss()
