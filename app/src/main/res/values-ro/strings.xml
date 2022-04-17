@@ -16,7 +16,6 @@
     <string name="Tips">Sfaturi</string>
     <string name="HideLauncherIcon">Ascunde pictograma în lansator</string>
     <string name="matters_needing_attention">Aplicația nu funcționează? </string>
-    <string name="Done">OK</string>
     <string name="about_module_summary">Vizualizează informații legate de modul</string>
     <string name="contributor_list">Lista de contribuitori a depozitului sursă deschisă</string>
     <string name="developer">Dezvoltator</string>
@@ -51,23 +50,16 @@
     <string name="disable_flag_secure_summary">Permite captură de ecran în aplicațiile care nu permit\nAcceptă adăugarea setărilor rapide în Centrul de control pentru securitate</string>
     <string name="delete_on_post_notification">Elimină notificarea Afișare peste</string>
     <string name="delete_on_post_notification_summary">Elimină notificarea \"Această aplicație se afișează peste alte aplicații\"</string>
-    <string name="allow_untrusted_touches">"Allow untrusted touches"</string>
-    <string name="take_effect_after_reboot">Take effect after reboot</string>
     <string name="sound">Sunet</string>
-    <string name="media_volume_steps_switch">Media volume steps</string>
-    <string name="media_volume_steps_summary">Turning on may cause the scrolling of the volume bar to freeze or the Bluetooth volume to be abnormal</string>
     <string name="scope">Domeniu</string>
     <string name="scope_android_summary">După activarea modulului pentru prima dată sau după actualizare, opțiunile de aici vor intra în vigoare după repornirea sistemului</string>
     <string name="scope_systemui">Interfață sistem</string>
     <string name="scope_systemui_summary">Personalizează interfața de sistem, bara de stare, ecranul de blocare etc.</string>
     <string name="statusbar">Bară de stare</string>
     <string name="double_tap_to_sleep">Apăsare dublă pentru a opri ecranul</string>
-    <string name="quick_settings_panel">Quick settings panel</string>
-    <string name="qs_custom_switch">Custom rows and columns</string>
     <string name="qs_custom_rows">Rânduri</string>
     <string name="qs_custom_rows_horizontal">Rânduri (orizontal)</string>
     <string name="qs_custom_columns">Coloane</string>
     <string name="qs_custom_columns_unexpanded">Coloane (Restrâns)</string>
-    <string name="qs_custom_switch_summary">The specific upper limit is determined by the display density</string>
     <string name="allow_screenshots">Permite captură ecran</string>
 </resources>
