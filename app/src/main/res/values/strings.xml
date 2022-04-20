@@ -96,4 +96,7 @@
     <string name="status_bar_network_speed_dual_row_size">Dual row size</string>
     <string name="status_bar_network_speed_dual_row_width">Dual row width</string>
     <string name="status_bar_network_speed">STatus bar network speed</string>
+    <string name="status_bar_icon">Status bar icon</string>
+    <string name="hide_wifi_activity_icon">Hide WIFI activity icon</string>
+    <string name="hide_mobile_activity_icon">Hide mobile activity icon</string>
 </resources>

@@ -19,6 +19,8 @@ object SystemUI : AppRegister() {
             HidePromptView, //隐藏胶囊提示
             HideBatteryPercentageIcon, //隐藏电量百分比号
             DoubleLineNetworkSpeed, //双排网速
+            HideWifiActivityIcon, //隐藏WIFI箭头
+            HideMobileActivityIcon, //隐藏移动箭头
         )
     }
 }

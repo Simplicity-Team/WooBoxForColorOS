@@ -51,7 +51,9 @@ object DoubleLineNetworkSpeed : HookRegister() {
                     mSpeedUnit.text = getTotalDownloadSpeed(context)
                 }
                 val layoutParams = mView.layoutParams
-                layoutParams.width = dp2px(context, getDualWidth.toFloat())
+                layoutParams.isNonNull {
+                    layoutParams.width = dp2px(context, getDualWidth.toFloat())
+                }
                 it.result = null
             }
         }

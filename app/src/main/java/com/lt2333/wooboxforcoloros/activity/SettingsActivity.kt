@@ -13,6 +13,7 @@ import cn.fkj233.ui.activity.MIUIActivity
 import cn.fkj233.ui.activity.data.DefValue
 import cn.fkj233.ui.activity.view.SwitchV
 import cn.fkj233.ui.activity.view.TextSummaryV
+import cn.fkj233.ui.activity.view.TextV
 import cn.fkj233.ui.dialog.MIUIDialog
 import com.lt2333.wooboxforcoloros.BuildConfig
 import com.lt2333.wooboxforcoloros.R
@@ -131,6 +132,8 @@ class SettingsActivity : MIUIActivity() {
                         textId = R.string.double_tap_to_sleep
                     ), SwitchV("status_bar_double_tap_to_sleep")
                 )
+                Line()
+                TitleText(resId = R.string.status_bar_icon)
                 TextSummaryWithSwitch(
                     TextSummaryV(
                         textId = R.string.hide_prompt_view,
@@ -143,6 +146,14 @@ class SettingsActivity : MIUIActivity() {
                         tipsId = R.string.hide_battery_percentage_icon_summary
                     ),
                     SwitchV("hide_battery_percentage_icon")
+                )
+                TextWithSwitch(
+                    TextV(resId = R.string.hide_wifi_activity_icon),
+                    SwitchV("hide_wifi_activity_icon")
+                )
+                TextWithSwitch(
+                    TextV(resId = R.string.hide_mobile_activity_icon),
+                    SwitchV("hide_mobile_activity_icon")
                 )
                 Line()
                 TitleText(resId = R.string.status_bar_network_speed)
