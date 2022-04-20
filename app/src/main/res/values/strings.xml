@@ -86,4 +86,14 @@
     <string name="unlock_self_start_quantity">Unlock self start quantity</string>
     <string name="hide_prompt_view">Hide Prompt view</string>
     <string name="hide_prompt_view_summary">When turned on, the hint of the colored capsule shape will be hidden.Such as background recording, background calling, screen casting ...</string>
+    <string name="none">None</string>
+    <string name="hide_battery_percentage_icon">Hide battery (%)</string>
+    <string name="hide_battery_percentage_icon_summary">Battery percentage display feature must be turned on by yourself</string>
+    <string name="status_bar_dual_row_network_speed">Dual row network speed</string>
+    <string name="status_bar_dual_row_network_speed_summary">Up and down network speed display</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="status_bar_network_speed_dual_row_size">Dual row size</string>
+    <string name="status_bar_network_speed_dual_row_width">Dual row width</string>
+    <string name="status_bar_network_speed">STatus bar network speed</string>
 </resources>

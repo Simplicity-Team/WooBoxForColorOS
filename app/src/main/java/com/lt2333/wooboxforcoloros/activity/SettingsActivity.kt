@@ -137,6 +137,57 @@ class SettingsActivity : MIUIActivity() {
                         tipsId = R.string.hide_prompt_view_summary
                     ), SwitchV("hide_prompt_view")
                 )
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.hide_battery_percentage_icon,
+                        tipsId = R.string.hide_battery_percentage_icon_summary
+                    ),
+                    SwitchV("hide_battery_percentage_icon")
+                )
+                Line()
+                TitleText(resId = R.string.status_bar_network_speed)
+                val statusBarDualRowNetworkSpeedBinding = GetDataBinding(object : DefValue {
+                    override fun getValue(): Any {
+                        return getSP()!!.getBoolean("status_bar_dual_row_network_speed", false)
+                    }
+                }) { view, flags, data ->
+                    when (flags) {
+                        1 -> (view as Switch).isEnabled = data as Boolean
+                        2 -> view.visibility = if (data as Boolean) View.VISIBLE else View.GONE
+                    }
+                }
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.status_bar_dual_row_network_speed,
+                        tipsId = R.string.status_bar_dual_row_network_speed_summary
+                    ),
+                    SwitchV(
+                        "status_bar_dual_row_network_speed",
+                        dataBindingSend = statusBarDualRowNetworkSpeedBinding.bindingSend
+                    )
+                )
+                Text(
+                    resId = R.string.status_bar_network_speed_dual_row_size,
+                    dataBindingRecv = statusBarDualRowNetworkSpeedBinding.binding.getRecv(2)
+                )
+                SeekBarWithText(
+                    "status_bar_network_speed_dual_row_size",
+                    6,
+                    8,
+                    6,
+                    dataBindingRecv = statusBarDualRowNetworkSpeedBinding.binding.getRecv(2)
+                )
+                Text(
+                    resId = R.string.status_bar_network_speed_dual_row_width,
+                    dataBindingRecv = statusBarDualRowNetworkSpeedBinding.binding.getRecv(2)
+                )
+                SeekBarWithText(
+                    "status_bar_network_speed_dual_row_width",
+                    30,
+                    40,
+                    35,
+                    dataBindingRecv = statusBarDualRowNetworkSpeedBinding.binding.getRecv(2)
+                )
                 Line()
                 TitleText(resId = R.string.quick_settings_panel)
                 val oldQSCustomSwitchBinding = GetDataBinding(object : DefValue {
@@ -309,7 +360,10 @@ class SettingsActivity : MIUIActivity() {
                     SwitchV("unlock_recent_task_locks_quantity")
                 )
                 TextSummaryWithSwitch(
-                    TextSummaryV(textId = R.string.launcher_remove_update_dot, tipsId = R.string.launcher_remove_update_dot_summary),
+                    TextSummaryV(
+                        textId = R.string.launcher_remove_update_dot,
+                        tipsId = R.string.launcher_remove_update_dot_summary
+                    ),
                     SwitchV("launcher_remove_update_dot")
                 )
 
