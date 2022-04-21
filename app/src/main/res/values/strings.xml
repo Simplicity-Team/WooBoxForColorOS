@@ -167,5 +167,5 @@
     <string name="status_bar_time_double_line">Dual row</string>
     <string name="status_bar_time_double_line_center_align">Dual row center align</string>
     <string name="status_bar_clock_size">Clock size (0: do not change)</string>
-    <string name="status_bar_clock_double_line_size">" Dual row size (0: do not change"</string>
+    <string name="status_bar_clock_double_line_size">Dual row size (0: do not change</string>
 </resources>
