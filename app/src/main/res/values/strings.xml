@@ -1,110 +1,157 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="app_name" translatable="false">WooBox For ColorOS</string>
-    <string name="other">Other</string>
-    <string name="reboot_host">Restart all scope</string>
-    <string name="reboot">Reboot System</string>
+    <string name="Done">OK</string>
 
-    <!--Status bar icons-->
+    <string name="HideLauncherIcon">Hide Launcher icon</string>
+
+    <string name="Tips">Tips</string>
+
+    <string name="UsePreSig">Use installed signatures</string>
+    <string name="UsePreSig_summary">Always use signatures from already installed apps when installing. This is extremely dangerous. Only enable when really needed!</string>
 
     <string name="about">About</string>
     <string name="about_module">About Module</string>
-    <string name="opensource">Open Source Repository</string>
-    <string name="github_url">Welcome more developers to participate in the development</string>
-    <string name="issues">Feedback/Proposal</string>
-    <string name="issues_url">Click to view GitHub Issues</string>
-    <string name="xposeddescription">Customization tool for ColorOS12(Android 12)</string>
-    <string name="main_switch">Module main switch</string>
-    <string name="menu">Menu</string>
-    <string name="Tips">Tips</string>
-    <string name="HideLauncherIcon">Hide Launcher icon</string>
-    <string name="matters_needing_attention">Feature is not working? </string>
-    <string name="Done">OK</string>
     <string name="about_module_summary">View module related information</string>
-    <string name="contributor_list">Open source repository contributor list</string>
-    <string name="developer">Developer</string>
-    <string name="thank_list">Thanks list</string>
-    <string name="third_party_open_source_statement">Third Party Open Source Statement</string>
+
+    <string name="allow_screenshots">Allow screenshot</string>
+    <string name="allow_untrusted_touches">"Allow untrusted touches"</string>
+
     <string name="app_coolapk_url">Come and give us five-star review</string>
     <string name="app_coolapk_url_summary">This can make us more discoverable</string>
-    <string name="qq_channel">Join the official QQ channel</string>
-    <string name="tg_channel">Join the official TG channel</string>
-    <string name="tg_channel_summary">You can enter the chat group on the channel page</string>
-    <string name="discussions">Discussions</string>
-    <string name="not_support">You seem to be using an outdated version of LSPosed or LSPosed is not active, please update LSPosed or activate it and try again.</string>
-    <string name="matters_needing_attention_context">It is recommended to restart the phone after the first activation or update\nMost of changes require restart in the top right corner to take effect</string>
+    <string name="app_name" translatable="false">WooBox For ColorOS</string>
+
     <string name="are_you_sure_reboot">Are you sure to reboot?</string>
-    <string name="cancel">Cancel</string>
     <string name="are_you_sure_reboot_scope">Are you sure to reboot all scope?</string>
-    <string name="participate_in_translation">Participate in translation</string>
-    <string name="participate_in_translation_summary">Help us translate the app into your language</string>
-    <string name="scope_android">System Framework</string>
-    <string name="corepacth">Remove restrictions</string>
-    <string name="downgr">Allow downgrade</string>
-    <string name="downgr_summary">Allow downgrade applications.</string>
+
     <string name="authcreak">Disable digest verify</string>
     <string name="authcreak_summary">Allows install apps after modify file in apk (ignore invalid digest error).</string>
-    <string name="digestCreak">Disable compare signatures</string>
-    <string name="digestCreak_summary">Allow re-install app with different signatures.</string>
-    <string name="UsePreSig">Use installed signatures</string>
-    <string name="UsePreSig_summary">Always use signatures from already installed apps when installing. This is extremely dangerous. Only enable when really needed!</string>
-    <string name="enhancedMode">Enhanced Mode</string>
-    <string name="enhancedMode_summary">Pass some validation in the application</string>
-    <string name="disable_flag_secure">Allow screenshot</string>
-    <string name="disable_flag_secure_summary">Allow screenshot in software that does not allow to Support adding drop-down quick setting on Control center for security</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="contributor_list">Open source repository contributor list</string>
+
+    <string name="corepacth">Remove restrictions</string>
+
     <string name="delete_on_post_notification">Remove display over notification</string>
     <string name="delete_on_post_notification_summary">Remove \"This app is displaying over other apps\" notification</string>
-    <string name="allow_untrusted_touches">"Allow untrusted touches"</string>
-    <string name="take_effect_after_reboot">Take effect after reboot</string>
-    <string name="sound">Sound</string>
-    <string name="media_volume_steps_switch">Media volume steps</string>
-    <string name="media_volume_steps_summary">Turning on may cause the scrolling of the volume bar to freeze or the Bluetooth volume to be abnormal</string>
-    <string name="scope">Scope</string>
-    <string name="scope_android_summary">After enabling the module for the first time or the module is updated, the feature here will take effect after restarting the system</string>
-    <string name="scope_systemui">SystemUI</string>
-    <string name="scope_systemui_summary">Customize system interface, status bar, lock screen, etc.</string>
-    <string name="statusbar">Status bar</string>
+
+    <string name="developer">Developer</string>
+
+    <string name="digestCreak">Disable compare signatures</string>
+    <string name="digestCreak_summary">Allow re-install app with different signatures.</string>
+
+    <string name="disable_flag_secure">Allow screenshot</string>
+    <string name="disable_flag_secure_summary">Allow screenshot in software that does not allow to Support adding drop-down quick setting on Control center for security</string>
+
+    <string name="discussions">Discussions</string>
+
     <string name="double_tap_to_sleep">Double tap to sleep</string>
-    <string name="quick_settings_panel">Quick settings panel</string>
-    <string name="qs_custom_switch">Custom rows and columns</string>
-    <string name="qs_custom_rows">Rows</string>
-    <string name="qs_custom_rows_horizontal">Rows (horizontal)</string>
-    <string name="qs_custom_columns">Columns</string>
-    <string name="qs_custom_columns_unexpanded">Columns (Unexpanded)</string>
-    <string name="qs_custom_switch_summary">The specific upper limit is determined by the display density</string>
-    <string name="allow_screenshots">Allow screenshot</string>
-    <string name="scope_other">Other</string>
-    <string name="scope_other_summary">Phone Manager, Battery and performance, etc.</string>
-    <string name="scope_phone_manager">Phone Manager</string>
-    <string name="scope_launcher">Launcher</string>
-    <string name="unlock_recent_task_locks_quantity">Unlock the limit on the number of recent task locks</string>
+
+    <string name="downgr">Allow downgrade</string>
+    <string name="downgr_summary">Allow downgrade applications.</string>
+
+    <string name="enhancedMode">Enhanced Mode</string>
+    <string name="enhancedMode_summary">Pass some validation in the application</string>
+
+    <string name="github_url">Welcome more developers to participate in the development</string>
+
+    <string name="hide_battery_percentage_icon">Hide battery (%)</string>
+    <string name="hide_battery_percentage_icon_summary">Battery percentage display feature must be turned on by yourself</string>
+    <string name="hide_mobile_activity_icon">Hide mobile activity icon</string>
+    <string name="hide_prompt_view">Hide Prompt view</string>
+    <string name="hide_prompt_view_summary">When turned on, the hint of the colored capsule shape will be hidden.Such as background recording, background calling, screen casting ...</string>
+    <string name="hide_wifi_activity_icon">Hide WIFI activity icon</string>
+
+    <string name="issues">Feedback/Proposal</string>
+    <string name="issues_url">Click to view GitHub Issues</string>
+
     <string name="launcher_more_layout">More layout</string>
     <string name="launcher_more_layout_summary">More layout options(3x5 ~ 6x7).</string>
     <string name="launcher_remove_update_dot">Remove APP update dot</string>
     <string name="launcher_remove_update_dot_summary">Undisplay a dot next to the name of updated apps.</string>
-    <string name="scope_security_center">Security Center</string>
-    <string name="unlock_self_start_quantity">Unlock self start quantity</string>
-    <string name="hide_prompt_view">Hide Prompt view</string>
-    <string name="hide_prompt_view_summary">When turned on, the hint of the colored capsule shape will be hidden.Such as background recording, background calling, screen casting ...</string>
-    <string name="none">None</string>
-    <string name="hide_battery_percentage_icon">Hide battery (%)</string>
-    <string name="hide_battery_percentage_icon_summary">Battery percentage display feature must be turned on by yourself</string>
-    <string name="status_bar_dual_row_network_speed">Dual row network speed</string>
-    <string name="status_bar_dual_row_network_speed_summary">Up and down network speed display</string>
+
     <string name="left">Left</string>
-    <string name="right">Right</string>
-    <string name="status_bar_network_speed_dual_row_size">Dual row size</string>
-    <string name="status_bar_network_speed_dual_row_width">Dual row width</string>
-    <string name="status_bar_network_speed">STatus bar network speed</string>
-    <string name="status_bar_icon">Status bar icon</string>
-    <string name="hide_wifi_activity_icon">Hide WIFI activity icon</string>
-    <string name="hide_mobile_activity_icon">Hide mobile activity icon</string>
-    <string name="status_bar_network_speed_refresh_speed">Network speed refresh in seconds</string>
-    <string name="status_bar_network_speed_refresh_speed_summary">Change the refresh frequency of the status bar network speed component to 1s</string>
+
+    <string name="main_switch">Module main switch</string>
+
+    <string name="matters_needing_attention">Feature is not working? </string>
+    <string name="matters_needing_attention_context">It is recommended to restart the phone after the first activation or update\nMost of changes require restart in the top right corner to take effect</string>
+
+    <string name="media_volume_steps_summary">Turning on may cause the scrolling of the volume bar to freeze or the Bluetooth volume to be abnormal</string>
+    <string name="media_volume_steps_switch">Media volume steps</string>
+
+    <string name="menu">Menu</string>
+
+    <string name="none">None</string>
+
+    <string name="not_support">You seem to be using an outdated version of LSPosed or LSPosed is not active, please update LSPosed or activate it and try again.</string>
+
     <string name="notification">Notification</string>
+
+    <string name="opensource">Open Source Repository</string>
+
+    <string name="other">Other</string>
+
+    <string name="participate_in_translation">Participate in translation</string>
+    <string name="participate_in_translation_summary">Help us translate the app into your language</string>
+
+    <string name="qq_channel">Join the official QQ channel</string>
+
+    <string name="qs_custom_columns">Columns</string>
+    <string name="qs_custom_columns_unexpanded">Columns (Unexpanded)</string>
+    <string name="qs_custom_rows">Rows</string>
+    <string name="qs_custom_rows_horizontal">Rows (horizontal)</string>
+    <string name="qs_custom_switch">Custom rows and columns</string>
+    <string name="qs_custom_switch_summary">The specific upper limit is determined by the display density</string>
+
+    <string name="quick_settings_panel">Quick settings panel</string>
+
+    <string name="reboot">Reboot System</string>
+    <string name="reboot_host">Restart all scope</string>
+
+    <string name="remove_dev_mode_is_on">Remove DEV mode is ON</string>
     <string name="remove_finished_charging">Remove finished charging</string>
+    <string name="remove_footer_security_warn">Remove footer security warn</string>
     <string name="remove_usb_debugging">Remove USB debugging</string>
     <string name="remove_vpn_activated">Remove VPN activated</string>
-    <string name="remove_dev_mode_is_on">Remove DEV mode is ON</string>
-    <string name="remove_footer_security_warn">Remove footer security warn</string>
+
+    <string name="right">Right</string>
+
+    <string name="scope">Scope</string>
+    <string name="scope_android">System Framework</string>
+    <string name="scope_android_summary">After enabling the module for the first time or the module is updated, the feature here will take effect after restarting the system</string>
+    <string name="scope_launcher">Launcher</string>
+    <string name="scope_other">Other</string>
+    <string name="scope_other_summary">Phone Manager, Battery and performance, etc.</string>
+    <string name="scope_phone_manager">Phone Manager</string>
+    <string name="scope_security_center">Security Center</string>
+    <string name="scope_systemui">SystemUI</string>
+    <string name="scope_systemui_summary">Customize system interface, status bar, lock screen, etc.</string>
+
+    <string name="sound">Sound</string>
+
+    <string name="status_bar_dual_row_network_speed">Dual row network speed</string>
+    <string name="status_bar_dual_row_network_speed_summary">Up and down network speed display</string>
+    <string name="status_bar_icon">Status bar icon</string>
+    <string name="status_bar_network_speed">Status bar network speed</string>
+    <string name="status_bar_network_speed_dual_row_size">Dual row size</string>
+    <string name="status_bar_network_speed_dual_row_width">Dual row width</string>
+    <string name="status_bar_network_speed_refresh_speed">Network speed refresh in seconds</string>
+    <string name="status_bar_network_speed_refresh_speed_summary">Change the refresh frequency of the status bar network speed component to 1s</string>
+
+    <string name="statusbar">Status bar</string>
+
+    <string name="take_effect_after_reboot">Take effect after reboot</string>
+
+    <string name="tg_channel">Join the official TG channel</string>
+    <string name="tg_channel_summary">You can enter the chat group on the channel page</string>
+
+    <string name="thank_list">Thanks list</string>
+
+    <string name="third_party_open_source_statement">Third Party Open Source Statement</string>
+
+    <string name="unlock_recent_task_locks_quantity">Unlock the limit on the number of recent task locks</string>
+    <string name="unlock_self_start_quantity">Unlock self start quantity</string>
+
+    <string name="xposeddescription">Customization tool for ColorOS12(Android 12)</string>
 </resources>
