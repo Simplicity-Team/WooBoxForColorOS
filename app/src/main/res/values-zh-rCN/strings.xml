@@ -116,4 +116,5 @@
     <string name="status_bar_time_double_line">双排显示</string>
     <string name="status_bar_time_double_line_center_align">双排居中对齐</string>
     <string name="status_bar_clock_size">时钟大小（0：不更改）</string>
+    <string name="status_bar_clock_double_line_size">双排大小（0：不更改）</string>
 </resources>
