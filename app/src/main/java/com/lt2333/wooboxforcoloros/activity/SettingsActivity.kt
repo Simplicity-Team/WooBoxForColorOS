@@ -395,7 +395,7 @@ class SettingsActivity : MIUIActivity() {
                 SeekBarWithText(
                     "media_volume_steps",
                     15,
-                    30,
+                    50,
                     30, dataBindingRecv = mediaVolumeStepsSwitchBinding.binding.getRecv(2)
                 )
             }
