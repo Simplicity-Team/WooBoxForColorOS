@@ -16,8 +16,8 @@ android {
         applicationId = "com.lt2333.wooboxforcoloros"
         minSdk = 31
         targetSdk = 32
-        versionCode = 3
-        versionName = "1.0.2"
+        versionCode = 4
+        versionName = "1.0.3"
     }
 
     buildTypes {
