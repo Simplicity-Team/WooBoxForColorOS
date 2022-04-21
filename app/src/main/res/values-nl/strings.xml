@@ -1,23 +1,22 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
-    <string name="other">Andere</string>
-    <string name="reboot_host">Herstart alle scope</string>
-    <string name="reboot">Herstart Systeem</string>
-    <!--Status bar icons-->
+    <string name="HideLauncherIcon">Verberg Launcher icoon</string>
+    <string name="Tips">Hint</string>
     <string name="about">Over</string>
     <string name="about_module">Over Module</string>
+    <string name="delete_on_post_notification">Verwijder weergave over notificatie</string>
+    <string name="delete_on_post_notification_summary">Verwijder \"Deze app geeft weer over andere apps\" notificatie</string>
+    <string name="disable_flag_secure">Sta schermafbeelding toe</string>
+    <string name="disable_flag_secure_summary">Sta schermafbeelding toe in software die niet toestaan\nOndersteuning voor het toevoegen van drop-down snelle instelling op Controle center voor beveiliging</string>
     <string name="github_url">Welkom meer ontwikkelaars om deel te nemen in de ontwikkeling</string>
     <string name="issues">Feedback/Voorstel</string>
     <string name="issues_url">Klik om GitHub Problemen te bekijken</string>
-    <string name="xposeddescription">Aanpassingsgereedschap voor ColorOS12(Android 12)</string>
     <string name="main_switch">Module hoofdschakelaar</string>
-    <string name="Tips">Hint</string>
-    <string name="HideLauncherIcon">Verberg Launcher icoon</string>
-    <string name="disable_flag_secure">Sta schermafbeelding toe</string>
-    <string name="disable_flag_secure_summary">Sta schermafbeelding toe in software die niet toestaan\nOndersteuning voor het toevoegen van drop-down snelle instelling op Controle center voor beveiliging</string>
-    <string name="delete_on_post_notification">Verwijder weergave over notificatie</string>
-    <string name="delete_on_post_notification_summary">Verwijder \"Deze app geeft weer over andere apps\" notificatie</string>
+    <string name="other">Andere</string>
+    <string name="reboot">Herstart Systeem</string>
+    <string name="reboot_host">Herstart alle scope</string>
     <string name="scope_android_summary">Na het inschakelen van de module voor de eerste keer of de module is bijgewerkt, zal de functie hier van kracht worden na het herstarten van het systeem</string>
     <string name="scope_systemui_summary">Aanpassen van systeeminterface, statusbalk, vergrendelingsscherm etc.</string>
     <string name="statusbar">Statusbalk</string>
+    <string name="xposeddescription">Aanpassingsgereedschap voor ColorOS12(Android 12)</string>
 </resources>
