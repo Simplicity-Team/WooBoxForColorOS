@@ -15,6 +15,7 @@ object Launcher : AppRegister() {
         autoInitHooks(
             lpparam,
             UnlockRecentLocks, //解除后台锁上限
+            RemoveUpdateDot, //移除更新小蓝点
         )
     }
 }
