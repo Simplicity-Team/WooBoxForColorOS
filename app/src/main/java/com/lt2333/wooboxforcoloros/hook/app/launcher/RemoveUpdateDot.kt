@@ -1,13 +1,10 @@
 package com.lt2333.wooboxforcoloros.hook.app.launcher
 
-import android.content.Context
 import android.widget.TextView
 import com.lt2333.wooboxforcoloros.util.findClass
 import com.lt2333.wooboxforcoloros.util.hasEnable
-import com.lt2333.wooboxforcoloros.util.hookAfterConstructor
 import com.lt2333.wooboxforcoloros.util.hookBeforeMethod
 import com.lt2333.wooboxforcoloros.util.xposed.base.HookRegister
-import de.robv.android.xposed.XposedHelpers
 import java.lang.reflect.Field
 
 object RemoveUpdateDot : HookRegister() {
