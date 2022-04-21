@@ -26,7 +26,7 @@ import kotlin.system.exitProcess
 class SettingsActivity : MIUIActivity() {
     private val activity = this
     override fun onCreate(savedInstanceState: Bundle?) {
-        if (BuildConfig.BUILD_TYPE != "debug") {
+        if (BuildConfig.DEBUG.not()) {
             AppCenter.start(
                 application, "ce58cd9e-4d80-43d5-ad87-f510e1230840",
                 Analytics::class.java, Crashes::class.java
@@ -702,7 +702,22 @@ class SettingsActivity : MIUIActivity() {
                         }.show()
                     })
                 )
-
+                TextSummaryArrow(
+                    TextSummaryV(textId = R.string.fast_reboot, onClickListener = {
+                        MIUIDialog(activity) {
+                            setTitle(R.string.Tips)
+                            setMessage(R.string.are_you_sure_fast_reboot)
+                            setLButton(R.string.cancel) {
+                                dismiss()
+                            }
+                            setRButton(R.string.Done) {
+                                val command = arrayOf("killall zygote")
+                                ShellUtils.execCommand(command, true)
+                                dismiss()
+                            }
+                        }.show()
+                    })
+                )
                 TextSummaryArrow(
                     TextSummaryV(textId = R.string.reboot_host, onClickListener = {
                         MIUIDialog(activity) {
