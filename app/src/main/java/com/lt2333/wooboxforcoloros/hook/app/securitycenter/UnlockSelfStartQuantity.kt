@@ -1,4 +1,4 @@
-package com.lt2333.wooboxforcoloros.hook.app.launcher
+package com.lt2333.wooboxforcoloros.hook.app.securitycenter
 
 import android.content.Context
 import com.lt2333.wooboxforcoloros.util.findClass

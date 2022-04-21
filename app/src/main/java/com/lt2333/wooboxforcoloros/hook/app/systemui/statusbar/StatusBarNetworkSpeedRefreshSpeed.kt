@@ -7,12 +7,12 @@ import com.lt2333.wooboxforcoloros.util.xposed.base.HookRegister
 object StatusBarNetworkSpeedRefreshSpeed : HookRegister() {
 
     override fun init() {
-        "com.oplusos.systemui.statusbar.controller.NetworkSpeedController".hookBeforeMethod(
-            getDefaultClassLoader(),
-            "postUpdateNetworkSpeedDelay",
-            Long::class.java
-        ) {
-            hasEnable("status_bar_network_speed_refresh_speed") {
+        hasEnable("status_bar_network_speed_refresh_speed") {
+            "com.oplusos.systemui.statusbar.controller.NetworkSpeedController".hookBeforeMethod(
+                getDefaultClassLoader(),
+                "postUpdateNetworkSpeedDelay",
+                Long::class.java
+            ) {
                 it.args[0] = 1000L
             }
         }

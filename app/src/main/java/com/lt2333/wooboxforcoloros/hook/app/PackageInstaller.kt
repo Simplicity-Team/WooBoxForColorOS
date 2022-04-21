@@ -1,12 +1,13 @@
 package com.lt2333.wooboxforcoloros.hook.app
 
-import com.lt2333.wooboxforcoloros.hook.app.securitycenter.UnlockSelfStartQuantity
+import com.lt2333.wooboxforcoloros.hook.app.packageinstaller.*
 import com.lt2333.wooboxforcoloros.util.xposed.base.AppRegister
 import de.robv.android.xposed.XposedBridge
 import de.robv.android.xposed.callbacks.XC_LoadPackage
+import com.lt2333.wooboxforcoloros.hook.app.packageinstaller.ReplaceInstaller as ReplaceInstaller
 
-object SecurityCenter : AppRegister() {
-    override val packageName: List<String> = listOf("com.oplus.safecenter")
+object PackageInstaller : AppRegister() {
+    override val packageName: List<String> = listOf("com.android.packageinstaller")
     override val processName: List<String> = emptyList()
     override val logTag: String = "WooBox"
 
@@ -14,7 +15,8 @@ object SecurityCenter : AppRegister() {
         XposedBridge.log("WooBox: 成功 Hook " + javaClass.simpleName)
         autoInitHooks(
             lpparam,
-            UnlockSelfStartQuantity, //解除自启动上限
+
+            ReplaceInstaller,//替换原生安装器
         )
     }
 }

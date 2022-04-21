@@ -7,8 +7,8 @@ import com.lt2333.wooboxforcoloros.util.xposed.base.HookRegister
 object DeleteOnPostNotification : HookRegister() {
 
     override fun init() {
-        "com.android.server.wm.AlertWindowNotification".hookBeforeMethod(getDefaultClassLoader(), "onPostNotification") {
-            hasEnable("delete_on_post_notification") {
+        hasEnable("delete_on_post_notification") {
+            "com.android.server.wm.AlertWindowNotification".hookBeforeMethod(getDefaultClassLoader(), "onPostNotification") {
                 it.result = null
             }
         }

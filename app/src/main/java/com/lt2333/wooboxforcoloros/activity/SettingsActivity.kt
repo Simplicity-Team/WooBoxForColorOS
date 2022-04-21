@@ -418,7 +418,12 @@ class SettingsActivity : MIUIActivity() {
                     ),
                     SwitchV("launcher_remove_update_dot")
                 )
-
+                Line()
+                TitleText("应用包安装程序")
+                TextSummaryWithSwitch(
+                    TextSummaryV("replace with google's installer"),
+                    SwitchV("replace_google_installer")
+                )
             }
             register("about_module", getString(R.string.about_module), true) {
                 Author(
@@ -630,6 +635,7 @@ class SettingsActivity : MIUIActivity() {
                                 val command = arrayOf(
                                     "killall com.android.systemui",
                                     "killall com.android.launcher",
+                                    "killall com.android.packageinstaller",
                                     "killall com.oplus.safecenter",
                                 )
                                 ShellUtils.execCommand(command, true)

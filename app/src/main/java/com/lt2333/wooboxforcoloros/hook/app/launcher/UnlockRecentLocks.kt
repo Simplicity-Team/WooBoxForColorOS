@@ -1,11 +1,9 @@
 package com.lt2333.wooboxforcoloros.hook.app.launcher
 
 import android.content.Context
-import android.widget.TextView
 import com.lt2333.wooboxforcoloros.util.*
 import com.lt2333.wooboxforcoloros.util.xposed.base.HookRegister
 import de.robv.android.xposed.XposedHelpers
-import java.lang.reflect.Field
 
 object UnlockRecentLocks : HookRegister() {
     override fun init() {

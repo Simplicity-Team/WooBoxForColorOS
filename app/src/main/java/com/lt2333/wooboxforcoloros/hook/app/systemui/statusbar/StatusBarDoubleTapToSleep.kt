@@ -12,6 +12,7 @@ import com.lt2333.wooboxforcoloros.util.hookBeforeMethod
 import com.lt2333.wooboxforcoloros.util.xposed.base.HookRegister
 import de.robv.android.xposed.XposedHelpers
 
+@Suppress("ReplaceJavaStaticMethodWithKotlinAnalog")
 object StatusBarDoubleTapToSleep: HookRegister() {
 
     @SuppressLint("ClickableViewAccessibility")

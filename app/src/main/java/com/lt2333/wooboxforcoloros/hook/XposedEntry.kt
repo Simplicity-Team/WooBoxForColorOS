@@ -1,10 +1,7 @@
 package com.lt2333.wooboxforcoloros.hook
 
 import com.lt2333.wooboxforcoloros.BuildConfig
-import com.lt2333.wooboxforcoloros.hook.app.Android
-import com.lt2333.wooboxforcoloros.hook.app.Launcher
-import com.lt2333.wooboxforcoloros.hook.app.SecurityCenter
-import com.lt2333.wooboxforcoloros.hook.app.SystemUI
+import com.lt2333.wooboxforcoloros.hook.app.*
 import com.lt2333.wooboxforcoloros.hook.app.android.corepatch.CorePatch
 import com.lt2333.wooboxforcoloros.util.xposed.EasyXposedInit
 import com.lt2333.wooboxforcoloros.util.xposed.base.AppRegister
@@ -20,6 +17,7 @@ class XposedEntry : EasyXposedInit() {
         SystemUI, //系统界面
         Launcher, //桌面
         SecurityCenter, //安全中心
+        PackageInstaller,//应用包安装程序
     )
 
     override fun handleLoadPackage(lpparam: XC_LoadPackage.LoadPackageParam?) {

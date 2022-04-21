@@ -7,17 +7,17 @@ import com.lt2333.wooboxforcoloros.util.xposed.base.HookRegister
 object RemoveVPNActivatedNotification : HookRegister() {
 
     override fun init() {
-        "com.android.server.connectivity.OplusVpnHelper".hookBeforeMethod(
-            getDefaultClassLoader(),
-            "showNotification",
-            String::class.java,
-            Int::class.java,
-            Int::class.java,
-            String::class.java,
-            "android.app.PendingIntent",
-            "com.android.internal.net.VpnConfig"
-        ) {
-            hasEnable("remove_vpn_activated") {
+        hasEnable("remove_vpn_activated") {
+            "com.android.server.connectivity.OplusVpnHelper".hookBeforeMethod(
+                getDefaultClassLoader(),
+                "showNotification",
+                String::class.java,
+                Int::class.java,
+                Int::class.java,
+                String::class.java,
+                "android.app.PendingIntent",
+                "com.android.internal.net.VpnConfig"
+            ) {
                 it.result = null
             }
         }
