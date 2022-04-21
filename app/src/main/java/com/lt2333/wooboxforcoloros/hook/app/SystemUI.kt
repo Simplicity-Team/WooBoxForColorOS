@@ -4,6 +4,7 @@ import com.lt2333.wooboxforcoloros.hook.app.systemui.notification.RemoveDevModeI
 import com.lt2333.wooboxforcoloros.hook.app.systemui.notification.RemoveFinishedCharging
 import com.lt2333.wooboxforcoloros.hook.app.systemui.notification.RemoveUSBDebugging
 import com.lt2333.wooboxforcoloros.hook.app.systemui.qs.QSCustom
+import com.lt2333.wooboxforcoloros.hook.app.systemui.qs.RemoveFooterSecurityWarn
 import com.lt2333.wooboxforcoloros.hook.app.systemui.statusbar.*
 import com.lt2333.wooboxforcoloros.util.xposed.base.AppRegister
 import de.robv.android.xposed.XposedBridge
@@ -21,6 +22,7 @@ object SystemUI : AppRegister() {
 
             //快速设置
             QSCustom, //快速设置自定义
+            RemoveFooterSecurityWarn, //移除页脚安全警告
 
             //状态栏
             StatusBarDoubleTapToSleep, //双击状态栏锁屏

@@ -228,6 +228,12 @@ class SettingsActivity : MIUIActivity() {
                 )
                 Line()
                 TitleText(resId = R.string.quick_settings_panel)
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.remove_footer_security_warn,
+                    ),
+                    SwitchV("remove_footer_security_warn")
+                )
                 val oldQSCustomSwitchBinding = GetDataBinding(object : DefValue {
                     override fun getValue(): Any {
                         return getSP()!!.getBoolean("qs_custom_switch", false)
