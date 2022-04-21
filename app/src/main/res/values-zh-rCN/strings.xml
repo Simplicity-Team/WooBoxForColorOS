@@ -54,6 +54,7 @@
     <string name="menu">菜单</string>
     <string name="none">无</string>
     <string name="not_support">您似乎正在使用过时的 LSPosed 版本或 LSPosed 未激活，请更新 LSPosed 或者激活后再试。</string>
+    <string name="notification">通知</string>
     <string name="opensource">开源仓库</string>
     <string name="other">其他</string>
     <string name="participate_in_translation">参与翻译</string>
@@ -68,6 +69,11 @@
     <string name="quick_settings_panel">快速设置面板</string>
     <string name="reboot">重启系统</string>
     <string name="reboot_host">重启全部作用域</string>
+    <string name="remove_dev_mode_is_on">移除开发者模式已开启</string>
+    <string name="remove_finished_charging">移除充电完成</string>
+    <string name="remove_footer_security_warn">移除页脚安全警告</string>
+    <string name="remove_usb_debugging">移除 USB 调试已打开</string>
+    <string name="remove_vpn_activated">移除 VPN 激活</string>
     <string name="right">右边</string>
     <string name="scope">作用域</string>
     <string name="scope_android">系统框架</string>
@@ -83,8 +89,11 @@
     <string name="status_bar_dual_row_network_speed">双排网络速度</string>
     <string name="status_bar_dual_row_network_speed_summary">上下行网络速度显示</string>
     <string name="status_bar_icon">状态栏图标</string>
+    <string name="status_bar_network_speed">状态栏网络速度</string>
     <string name="status_bar_network_speed_dual_row_size">双排大小</string>
     <string name="status_bar_network_speed_dual_row_width">双排宽度</string>
+    <string name="status_bar_network_speed_refresh_speed">网速秒刷新</string>
+    <string name="status_bar_network_speed_refresh_speed_summary">将状态栏网速组件的刷新频率改成1s</string>
     <string name="statusbar">状态栏</string>
     <string name="take_effect_after_reboot">重新启动后生效</string>
     <string name="tg_channel">加入 官方TG频道</string>
