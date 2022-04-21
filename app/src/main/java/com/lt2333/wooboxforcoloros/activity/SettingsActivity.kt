@@ -133,6 +133,91 @@ class SettingsActivity : MIUIActivity() {
                     ), SwitchV("status_bar_double_tap_to_sleep")
                 )
                 Line()
+                TitleText(resId = R.string.status_bar_clock_format)
+                val customClockBinding = GetDataBinding(object : DefValue {
+                    override fun getValue(): Any {
+                        return getSP()!!.getBoolean("custom_clock_switch", false)
+                    }
+                }) { view, flags, data ->
+                    when (flags) {
+                        1 -> (view as Switch).isEnabled = data as Boolean
+                        2 -> view.visibility = if (data as Boolean) View.VISIBLE else View.GONE
+                    }
+                }
+                TextWithSwitch(
+                    TextV(resId = R.string.custom_clock_switch, colorId = R.color.purple_700),
+                    SwitchV(
+                        "custom_clock_switch",
+                        dataBindingSend = customClockBinding.bindingSend
+                    )
+                )
+                TextWithSwitch(
+                    TextV(resId = R.string.status_bar_time_year),
+                    SwitchV("status_bar_time_year"),
+                    dataBindingRecv = customClockBinding.binding.getRecv(2)
+                )
+                TextWithSwitch(
+                    TextV(resId = R.string.status_bar_time_month),
+                    SwitchV("status_bar_time_month"),
+                    dataBindingRecv = customClockBinding.binding.getRecv(2)
+                )
+                TextWithSwitch(
+                    TextV(resId = R.string.status_bar_time_day),
+                    SwitchV("status_bar_time_day"),
+                    dataBindingRecv = customClockBinding.binding.getRecv(2)
+                )
+                TextWithSwitch(
+                    TextV(resId = R.string.status_bar_time_week),
+                    SwitchV("status_bar_time_week"),
+                    dataBindingRecv = customClockBinding.binding.getRecv(2)
+                )
+                TextWithSwitch(
+                    TextV(resId = R.string.status_bar_time_double_hour),
+                    SwitchV("status_bar_time_double_hour"),
+                    dataBindingRecv = customClockBinding.binding.getRecv(2)
+                )
+                TextWithSwitch(
+                    TextV(resId = R.string.status_bar_time_period),
+                    SwitchV("status_bar_time_period", true),
+                    dataBindingRecv = customClockBinding.binding.getRecv(2)
+                )
+                TextWithSwitch(
+                    TextV(resId = R.string.status_bar_time_seconds),
+                    SwitchV("status_bar_time_seconds"),
+                    dataBindingRecv = customClockBinding.binding.getRecv(2)
+                )
+                TextWithSwitch(
+                    TextV(resId = R.string.status_bar_time_hide_space),
+                    SwitchV("status_bar_time_hide_space"),
+                    dataBindingRecv = customClockBinding.binding.getRecv(2)
+                )
+                TextWithSwitch(
+                    TextV(resId = R.string.status_bar_time_double_line),
+                    SwitchV("status_bar_time_double_line"),
+                    dataBindingRecv = customClockBinding.binding.getRecv(2)
+                )
+                TextWithSwitch(
+                    TextV(resId = R.string.status_bar_time_double_line_center_align),
+                    SwitchV("status_bar_time_double_line_center_align"),
+                    dataBindingRecv = customClockBinding.binding.getRecv(2)
+                )
+                Text(
+                    resId = R.string.status_bar_clock_size,
+                    dataBindingRecv = customClockBinding.binding.getRecv(2)
+                )
+                SeekBarWithText(
+                    "status_bar_clock_size", 0, 18, 0,
+                    dataBindingRecv = customClockBinding.binding.getRecv(2)
+                )
+                Text(
+                    resId = R.string.status_bar_clock_double_line_size,
+                    dataBindingRecv = customClockBinding.binding.getRecv(2)
+                )
+                SeekBarWithText(
+                    "status_bar_clock_double_line_size", 0, 9, 0,
+                    dataBindingRecv = customClockBinding.binding.getRecv(2)
+                )
+                Line()
                 TitleText(resId = R.string.status_bar_icon)
                 TextSummaryWithSwitch(
                     TextSummaryV(

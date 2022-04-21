@@ -32,6 +32,7 @@ object SystemUI : AppRegister() {
             HideWifiActivityIcon, //隐藏WIFI箭头
             HideMobileActivityIcon, //隐藏移动箭头
             StatusBarNetworkSpeedRefreshSpeed, //网速秒刷
+            CustomClock, //自定义时钟
 
             //通知类
             RemoveUSBDebugging, //移除USB调试已开启通知

@@ -154,4 +154,18 @@
     <string name="unlock_self_start_quantity">Unlock self start quantity</string>
 
     <string name="xposeddescription">Customization tool for ColorOS12(Android 12)</string>
+    <string name="status_bar_clock_format">Status bar clock format</string>
+    <string name="custom_clock_switch">Custom Clock Switch</string>
+    <string name="status_bar_time_year">Display year</string>
+    <string name="status_bar_time_month">Display month</string>
+    <string name="status_bar_time_day">Display date</string>
+    <string name="status_bar_time_week">Display day</string>
+    <string name="status_bar_time_double_hour">Display chinese twelve hour</string>
+    <string name="status_bar_time_period">Display AM/PM</string>
+    <string name="status_bar_time_seconds">Display seconds</string>
+    <string name="status_bar_time_hide_space">Hide space</string>
+    <string name="status_bar_time_double_line">Dual row</string>
+    <string name="status_bar_time_double_line_center_align">Dual row center align</string>
+    <string name="status_bar_clock_size">Clock size (0: do not change)</string>
+    <string name="status_bar_clock_double_line_size">" Dual row size (0: do not change"</string>
 </resources>
