@@ -28,5 +28,4 @@ object HideWifiActivityIcon : HookRegister() {
                 (it.thisObject.getObjectField("mWifiActivity") as ImageView).visibility = View.GONE }
         }
     }
-
 }

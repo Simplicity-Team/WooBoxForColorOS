@@ -28,5 +28,4 @@ object HideMobileActivityIcon : HookRegister() {
                 (it.thisObject.getObjectField("mDataActivity") as ImageView).visibility = View.GONE }
         }
     }
-
 }

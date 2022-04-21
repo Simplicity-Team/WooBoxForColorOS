@@ -1,4 +1,4 @@
-package com.lt2333.wooboxforcoloros.hook.app.systemui
+package com.lt2333.wooboxforcoloros.hook.app.systemui.statusbar
 
 import android.content.Context
 import android.net.TrafficStats

@@ -1,4 +1,4 @@
-package com.lt2333.wooboxforcoloros.hook.app.systemui
+package com.lt2333.wooboxforcoloros.hook.app.systemui.statusbar
 
 import com.lt2333.wooboxforcoloros.util.hasEnable
 import com.lt2333.wooboxforcoloros.util.hookBeforeMethod

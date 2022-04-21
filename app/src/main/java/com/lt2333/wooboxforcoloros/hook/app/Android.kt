@@ -22,6 +22,7 @@ object Android : AppRegister() {
             DeleteOnPostNotification, //上层显示
             SystemPropertiesHook, //SystemPropertiesHook
             AllowUntrustedTouches, //允许不受信任的触摸
+            RemoveVPNActivatedNotification, //移除VPN已激活通知
         )
     }
 
