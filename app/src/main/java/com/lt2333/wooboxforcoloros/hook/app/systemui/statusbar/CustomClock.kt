@@ -90,6 +90,27 @@ object CustomClock : HookRegister() {
                 nowTime = Calendar.getInstance().time
                 it.result = getDate(c!!) + str + getTime(c!!, is24)
             }
+
+
+            findMethod("com.oplusos.systemui.statusbar.widget.StatClock") {
+                name == "onConfigurationChanged"
+            }.hookAfterMethod {
+                val textV = it.thisObject as TextView
+                if (textV.resources.getResourceEntryName(textV.id) != "clock") return@hookAfterMethod
+                if (isDoubleLine) {
+                    var clockDoubleLineSize = 7F
+                    if (getClockDoubleSize != 0) {
+                        clockDoubleLineSize = getClockDoubleSize.toFloat()
+                    }
+                    textV.setTextSize(TypedValue.COMPLEX_UNIT_DIP, clockDoubleLineSize)
+                    textV.setLineSpacing(0F, 0.8F)
+                } else {
+                    if (getClockSize != 0) {
+                        val clockSize = getClockSize.toFloat()
+                        textV.setTextSize(TypedValue.COMPLEX_UNIT_DIP, clockSize)
+                    }
+                }
+            }
         }
     }
 
