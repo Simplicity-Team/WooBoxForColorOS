@@ -157,6 +157,13 @@ class SettingsActivity : MIUIActivity() {
                 )
                 Line()
                 TitleText(resId = R.string.status_bar_network_speed)
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.status_bar_network_speed_refresh_speed,
+                        tipsId = R.string.status_bar_network_speed_refresh_speed_summary
+                    ),
+                    SwitchV("status_bar_network_speed_refresh_speed")
+                )
                 val statusBarDualRowNetworkSpeedBinding = GetDataBinding(object : DefValue {
                     override fun getValue(): Any {
                         return getSP()!!.getBoolean("status_bar_dual_row_network_speed", false)
@@ -194,10 +201,30 @@ class SettingsActivity : MIUIActivity() {
                 )
                 SeekBarWithText(
                     "status_bar_network_speed_dual_row_width",
-                    30,
-                    40,
+                    28,
+                    38,
                     35,
                     dataBindingRecv = statusBarDualRowNetworkSpeedBinding.binding.getRecv(2)
+                )
+                Line()
+                TitleText(resId = R.string.notification)
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.remove_finished_charging,
+                    ),
+                    SwitchV("remove_finished_charging")
+                )
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.remove_usb_debugging,
+                    ),
+                    SwitchV("remove_usb_debugging")
+                )
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.remove_dev_mode_is_on,
+                    ),
+                    SwitchV("remove_dev_mode_is_on")
                 )
                 Line()
                 TitleText(resId = R.string.quick_settings_panel)
@@ -312,6 +339,14 @@ class SettingsActivity : MIUIActivity() {
                         tipsId = R.string.disable_flag_secure_summary
                     ),
                     SwitchV("disable_flag_secure")
+                )
+                Line()
+                TitleText(resId = R.string.notification)
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.remove_vpn_activated,
+                    ),
+                    SwitchV("remove_vpn_activated")
                 )
                 TextSummaryWithSwitch(
                     TextSummaryV(

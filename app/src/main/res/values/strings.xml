@@ -99,4 +99,11 @@
     <string name="status_bar_icon">Status bar icon</string>
     <string name="hide_wifi_activity_icon">Hide WIFI activity icon</string>
     <string name="hide_mobile_activity_icon">Hide mobile activity icon</string>
+    <string name="status_bar_network_speed_refresh_speed">Network speed refresh in seconds</string>
+    <string name="status_bar_network_speed_refresh_speed_summary">Change the refresh frequency of the status bar network speed component to 1s</string>
+    <string name="notification">Notification</string>
+    <string name="remove_finished_charging">Remove finished charging</string>
+    <string name="remove_usb_debugging">Remove USB debugging</string>
+    <string name="remove_vpn_activated">Remove VPN activated</string>
+    <string name="remove_dev_mode_is_on">Remove DEV mode is ON</string>
 </resources>
