@@ -504,10 +504,10 @@ class SettingsActivity : MIUIActivity() {
                     SwitchV("launcher_remove_update_dot")
                 )
                 Line()
-                TitleText("应用包安装程序")
+                TitleText(resId = R.string.package_installer)
                 TextSummaryWithSwitch(
-                    TextSummaryV("replace with google's installer"),
-                    SwitchV("replace_google_installer")
+                    TextSummaryV(textId = R.string.use_aosp_installer),
+                    SwitchV("use_aosp_installer")
                 )
             }
             register("about_module", getString(R.string.about_module), true) {
