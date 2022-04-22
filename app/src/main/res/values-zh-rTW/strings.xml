@@ -85,4 +85,6 @@
     <string name="thank_list">感謝名單</string>
     <string name="third_party_open_source_statement">第三方開源聲明</string>
     <string name="xposeddescription">基於 ColorOS12(Android 12) 適配的自訂工具</string>
+    <string name="fast_reboot">快速重新開機</string>
+    <string name="are_you_sure_fast_reboot">確認快速重新開機？</string>
 </resources>
