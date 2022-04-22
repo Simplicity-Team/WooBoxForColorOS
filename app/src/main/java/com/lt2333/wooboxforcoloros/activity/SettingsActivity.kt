@@ -708,22 +708,6 @@ class SettingsActivity : MIUIActivity() {
                     })
                 )
                 TextSummaryArrow(
-                    TextSummaryV(textId = R.string.fast_reboot, onClickListener = {
-                        MIUIDialog(activity) {
-                            setTitle(R.string.Tips)
-                            setMessage(R.string.are_you_sure_fast_reboot)
-                            setLButton(R.string.cancel) {
-                                dismiss()
-                            }
-                            setRButton(R.string.Done) {
-                                val command = arrayOf("killall zygote")
-                                ShellUtils.execCommand(command, true)
-                                dismiss()
-                            }
-                        }.show()
-                    })
-                )
-                TextSummaryArrow(
                     TextSummaryV(textId = R.string.reboot_host, onClickListener = {
                         MIUIDialog(activity) {
                             setTitle(R.string.Tips)
