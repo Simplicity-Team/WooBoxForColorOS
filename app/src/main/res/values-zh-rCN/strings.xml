@@ -117,4 +117,8 @@
     <string name="status_bar_time_double_line_center_align">双排居中对齐</string>
     <string name="status_bar_clock_size">时钟大小（0：不更改）</string>
     <string name="status_bar_clock_double_line_size">双排大小（0：不更改）</string>
+    <string name="fast_reboot">快速重启系统</string>
+    <string name="are_you_sure_fast_reboot">确定快速重启系统？</string>
+    <string name="package_installer">软件包安装器</string>
+    <string name="use_aosp_installer">使用 AOSP 安装器</string>
 </resources>
