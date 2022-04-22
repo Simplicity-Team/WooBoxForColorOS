@@ -170,4 +170,6 @@
     <string name="status_bar_clock_double_line_size">Dual row size (0: do not change</string>
     <string name="fast_reboot">Fast Reboot System</string>
     <string name="are_you_sure_fast_reboot">Are you sure to fast reboot?</string>
+    <string name="package_installer">Package Installer</string>
+    <string name="use_aosp_installer">Use AOSP installer</string>
 </resources>
