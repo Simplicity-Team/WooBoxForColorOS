@@ -6,6 +6,9 @@ import android.util.TypedValue
 import android.widget.FrameLayout
 import android.widget.TextView
 import cn.fkj233.ui.activity.dp2px
+import com.github.kyuubiran.ezxhelper.utils.findMethod
+import com.github.kyuubiran.ezxhelper.utils.hookAfter
+import com.github.kyuubiran.ezxhelper.utils.hookBefore
 import com.lt2333.wooboxforcoloros.util.*
 import com.lt2333.wooboxforcoloros.util.xposed.base.HookRegister
 import de.robv.android.xposed.XposedHelpers
@@ -22,40 +25,37 @@ object DoubleLineNetworkSpeed : HookRegister() {
     private val getDualSize = XSPUtils.getInt("status_bar_network_speed_dual_row_size", 6)
     private val getDualWidth = XSPUtils.getInt("status_bar_network_speed_dual_row_width", 35)
 
-    override fun init() {
-        hasEnable("status_bar_dual_row_network_speed") {
-            "com.oplusos.systemui.statusbar.widget.NetworkSpeedView".hookAfterMethod(
-                getDefaultClassLoader(), "onFinishInflate"
-            ) {
-                val mSpeedNumber =
-                    XposedHelpers.getObjectField(it.thisObject, "mSpeedNumber") as TextView
-                val mSpeedUnit =
-                    XposedHelpers.getObjectField(it.thisObject, "mSpeedUnit") as TextView
-                mSpeedNumber.setTextSize(TypedValue.COMPLEX_UNIT_DIP, getDualSize.toFloat())
-                mSpeedUnit.setTextSize(TypedValue.COMPLEX_UNIT_DIP, getDualSize.toFloat())
+    override fun init() = hasEnable("status_bar_dual_row_network_speed") {
+        findMethod("com.oplusos.systemui.statusbar.widget.NetworkSpeedView") {
+            name == "onFinishInflate"
+        }.hookAfter {
+            val mSpeedNumber =
+                XposedHelpers.getObjectField(it.thisObject, "mSpeedNumber") as TextView
+            val mSpeedUnit =
+                XposedHelpers.getObjectField(it.thisObject, "mSpeedUnit") as TextView
+            mSpeedNumber.setTextSize(TypedValue.COMPLEX_UNIT_DIP, getDualSize.toFloat())
+            mSpeedUnit.setTextSize(TypedValue.COMPLEX_UNIT_DIP, getDualSize.toFloat())
+        }
+        findMethod("com.oplusos.systemui.statusbar.widget.NetworkSpeedView") {
+            name == "updateNetworkSpeed" &&
+                    parameterTypes[0] == String::class.java &&
+                    parameterTypes[1] == Array<String>::class.java
+        }.hookBefore {
+            val mView = it.thisObject as FrameLayout
+            val context = mView.context
+            val mSpeedNumber =
+                XposedHelpers.getObjectField(it.thisObject, "mSpeedNumber") as TextView
+            val mSpeedUnit =
+                XposedHelpers.getObjectField(it.thisObject, "mSpeedUnit") as TextView
+            if (it.args[1] != null && (it.args[1] as Array<String>).size >= 2) {
+                mSpeedNumber.text = getTotalUpSpeed(context)
+                mSpeedUnit.text = getTotalDownloadSpeed(context)
             }
-            "com.oplusos.systemui.statusbar.widget.NetworkSpeedView".hookBeforeMethod(
-                getDefaultClassLoader(),
-                "updateNetworkSpeed",
-                String::class.java,
-                Array<String>::class.java
-            ) {
-                val mView = it.thisObject as FrameLayout
-                val context = mView.context
-                val mSpeedNumber =
-                    XposedHelpers.getObjectField(it.thisObject, "mSpeedNumber") as TextView
-                val mSpeedUnit =
-                    XposedHelpers.getObjectField(it.thisObject, "mSpeedUnit") as TextView
-                if (it.args[1] != null && (it.args[1] as Array<String>).size >= 2) {
-                    mSpeedNumber.text = getTotalUpSpeed(context)
-                    mSpeedUnit.text = getTotalDownloadSpeed(context)
-                }
-                val layoutParams = mView.layoutParams
-                layoutParams.isNonNull {
-                    layoutParams.width = dp2px(context, getDualWidth.toFloat())
-                }
-                it.result = null
-            }
+            val layoutParams = mView.layoutParams
+            (if ((layoutParams != null)) {
+                layoutParams.width = dp2px(context, getDualWidth.toFloat())
+            })
+            it.result = null
         }
     }
 

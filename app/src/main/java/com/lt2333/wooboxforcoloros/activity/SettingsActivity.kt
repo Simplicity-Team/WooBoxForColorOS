@@ -504,10 +504,10 @@ class SettingsActivity : MIUIActivity() {
                     SwitchV("launcher_remove_update_dot")
                 )
                 Line()
-                TitleText("应用包安装程序")
+                TitleText(resId = R.string.package_installer)
                 TextSummaryWithSwitch(
-                    TextSummaryV("replace with google's installer"),
-                    SwitchV("replace_google_installer")
+                    TextSummaryV(textId = R.string.use_aosp_installer),
+                    SwitchV("use_aosp_installer")
                 )
             }
             register("about_module", getString(R.string.about_module), true) {
@@ -701,22 +701,6 @@ class SettingsActivity : MIUIActivity() {
                             }
                             setRButton(R.string.Done) {
                                 val command = arrayOf("reboot")
-                                ShellUtils.execCommand(command, true)
-                                dismiss()
-                            }
-                        }.show()
-                    })
-                )
-                TextSummaryArrow(
-                    TextSummaryV(textId = R.string.fast_reboot, onClickListener = {
-                        MIUIDialog(activity) {
-                            setTitle(R.string.Tips)
-                            setMessage(R.string.are_you_sure_fast_reboot)
-                            setLButton(R.string.cancel) {
-                                dismiss()
-                            }
-                            setRButton(R.string.Done) {
-                                val command = arrayOf("killall zygote")
                                 ShellUtils.execCommand(command, true)
                                 dismiss()
                             }
