@@ -41,7 +41,7 @@ object SystemUI : AppRegister() {
             RemoveDevModeIsOn, //移除开发者模式已开启通知
 
             //特性
-            ChargingRipple,
+            ChargingRipple, //打开安卓12原生充电开始动画
         )
     }
 }
