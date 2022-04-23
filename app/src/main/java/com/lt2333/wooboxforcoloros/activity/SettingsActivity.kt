@@ -320,6 +320,14 @@ class SettingsActivity : MIUIActivity() {
                     SwitchV("enable_charging_ripple")
                 )
                 Line()
+                TitleText(resId = R.string.lockscreen)
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.remove_red_one,
+                    ),
+                    SwitchV("remove_red_one")
+                )
+                Line()
                 TitleText(resId = R.string.quick_settings_panel)
                 TextSummaryWithSwitch(
                     TextSummaryV(
