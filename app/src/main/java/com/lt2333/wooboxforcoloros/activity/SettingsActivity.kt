@@ -312,6 +312,14 @@ class SettingsActivity : MIUIActivity() {
                     SwitchV("remove_dev_mode_is_on")
                 )
                 Line()
+                TitleText(resId = R.string.features)
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.enable_charging_ripple,
+                    ),
+                    SwitchV("enable_charging_ripple")
+                )
+                Line()
                 TitleText(resId = R.string.quick_settings_panel)
                 TextSummaryWithSwitch(
                     TextSummaryV(

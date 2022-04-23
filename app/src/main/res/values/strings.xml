@@ -172,4 +172,6 @@
     <string name="are_you_sure_fast_reboot">Are you sure to fast reboot?</string>
     <string name="package_installer">Package Installer</string>
     <string name="use_aosp_installer">Use AOSP installer</string>
+    <string name="features">Features</string>
+    <string name="enable_charging_ripple">Enable Charging Ripple</string>
 </resources>
