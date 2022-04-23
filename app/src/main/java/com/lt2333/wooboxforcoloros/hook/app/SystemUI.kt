@@ -6,6 +6,8 @@ import com.lt2333.wooboxforcoloros.hook.app.systemui.notification.RemoveUSBDebug
 import com.lt2333.wooboxforcoloros.hook.app.systemui.qs.QSCustom
 import com.lt2333.wooboxforcoloros.hook.app.systemui.qs.RemoveFooterSecurityWarn
 import com.lt2333.wooboxforcoloros.hook.app.systemui.statusbar.*
+import com.lt2333.wooboxforcoloros.hook.app.systemui.features.ChargingRipple
+import com.lt2333.wooboxforcoloros.hook.app.systemui.lockscreen.RemoveRedOne
 import com.lt2333.wooboxforcoloros.util.xposed.base.AppRegister
 import de.robv.android.xposed.XposedBridge
 import de.robv.android.xposed.callbacks.XC_LoadPackage
@@ -38,6 +40,12 @@ object SystemUI : AppRegister() {
             RemoveUSBDebugging, //移除USB调试已开启通知
             RemoveFinishedCharging, //移除已充满通知
             RemoveDevModeIsOn, //移除开发者模式已开启通知
+
+            //特性
+            ChargingRipple, //打开安卓12原生充电开始动画
+
+            //锁屏界面
+            RemoveRedOne, //移除锁屏时钟的红色数字1
         )
     }
 }
