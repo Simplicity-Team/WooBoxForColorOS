@@ -217,6 +217,10 @@ class SettingsActivity : MIUIActivity() {
                     "status_bar_clock_double_line_size", 0, 9, 0,
                     dataBindingRecv = customClockBinding.binding.getRecv(2)
                 )
+                TextWithSwitch(
+                    TextV(resId = R.string.dropdown_status_bar_clock_display_seconds),
+                    SwitchV("dropdown_status_bar_clock_display_seconds")
+                )
                 Line()
                 TitleText(resId = R.string.status_bar_icon)
                 TextSummaryWithSwitch(
