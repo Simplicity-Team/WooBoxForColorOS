@@ -35,6 +35,7 @@ object SystemUI : AppRegister() {
             HideMobileActivityIcon, //隐藏移动箭头
             StatusBarNetworkSpeedRefreshSpeed, //网速秒刷
             CustomClock, //自定义时钟
+            StatusBarClock, //下拉状态栏时钟显秒
 
             //通知类
             RemoveUSBDebugging, //移除USB调试已开启通知

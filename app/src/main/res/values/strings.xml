@@ -50,6 +50,8 @@
     <string name="downgr">Allow downgrade</string>
     <string name="downgr_summary">Allow downgrade applications.</string>
 
+    <string name="dropdown_status_bar_clock_display_seconds">Drop-down status bar clock display seconds</string>
+
     <string name="enhancedMode">Enhanced Mode</string>
     <string name="enhancedMode_summary">Pass some validation in the application</string>
 
