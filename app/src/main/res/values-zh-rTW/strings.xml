@@ -30,6 +30,7 @@
     <string name="double_tap_to_sleep">雙擊鎖定螢幕</string>
     <string name="downgr">允許降級安裝應用</string>
     <string name="downgr_summary">允許在已安裝新版的情況下覆蓋安裝舊版本</string>
+    <string name="dropdown_status_bar_clock_display_seconds">下拉狀態列時鐘顯秒</string>
     <string name="enhancedMode">增強模式</string>
     <string name="enhancedMode_summary">可以解決一些應用內部的完整性較驗，一般不需要開啟</string>
     <string name="github_url">歡迎更多開發者共同參與開發</string>
