@@ -1,5 +1,7 @@
 package com.lt2333.wooboxforcoloros.hook.app
 
+import com.lt2333.wooboxforcoloros.hook.app.packageinstaller.AllowReplaceInstall
+import com.lt2333.wooboxforcoloros.hook.app.packageinstaller.SkipApkScan
 import com.lt2333.wooboxforcoloros.hook.app.packageinstaller.UseAOSPInstaller
 import com.lt2333.wooboxforcoloros.util.xposed.base.AppRegister
 import de.robv.android.xposed.XposedBridge
@@ -15,6 +17,8 @@ object PackageInstaller : AppRegister() {
         autoInitHooks(
             lpparam,
 
+            SkipApkScan,//跳过Apk扫描
+            AllowReplaceInstall,//允许替换安装(降级)
             UseAOSPInstaller,//使用原生安装器
         )
     }
