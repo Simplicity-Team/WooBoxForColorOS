@@ -737,7 +737,7 @@ class SettingsActivity : MIUIActivity() {
                         onClickListener = {
                             try {
                                 val uri =
-                                    Uri.parse("https://crowdin.com/project/simplicitytools")
+                                    Uri.parse("https://crowdin.com/project/wooboxforcoloros")
                                 val intent = Intent(Intent.ACTION_VIEW, uri)
                                 startActivity(intent)
                             } catch (e: Exception) {
