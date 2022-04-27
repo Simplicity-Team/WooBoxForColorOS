@@ -60,6 +60,4 @@
     <string name="thank_list">感謝リスト</string>
     <string name="third_party_open_source_statement">サードパーティーのオープンソースに関する声明</string>
     <string name="xposeddescription">ColorOS12(Android 12) のカスタマイズツール</string>
-    <string name="fast_reboot">クイックリブート</string>
-    <string name="are_you_sure_fast_reboot">クイックリブートの確認する？</string>
 </resources>

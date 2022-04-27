@@ -31,6 +31,9 @@
     <string name="enhancedMode">Улучшенный режим</string>
     <string name="enhancedMode_summary">Пройдите проверку в приложении</string>
     <string name="github_url">Приглашаем больше разработчиков принять участие в разработке</string>
+    <string name="hide_battery_percentage_icon">Скрыть проценты батареи</string>
+    <string name="hide_battery_percentage_icon_summary">Функция отображения процента заряда батареи должна быть включена</string>
+    <string name="hide_mobile_activity_icon">Скрыть значок мобильной активности</string>
     <string name="issues">Обратная связь</string>
     <string name="issues_url">Нажмите, чтобы просмотреть обсуждение на GitHub</string>
     <string name="main_switch">Вкл/Выкл модуль</string>
