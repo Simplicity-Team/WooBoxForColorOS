@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
     <string name="Done">確定</string>
-    <string name="HideLauncherIcon">隱藏桌面圖標</string>
+    <string name="HideLauncherIcon">隱藏桌面圖示</string>
     <string name="Tips">提示</string>
     <string name="UsePreSig">安裝時始終使用已裝app的簽名</string>
     <string name="UsePreSig_summary">安裝時總是使用已安裝應用的簽名。 不是一般的<b>危險</b> 僅在絕對需要時啟用</string>
     <string name="about">關於</string>
-    <string name="about_module">關於模塊</string>
-    <string name="about_module_summary">查看模塊相關訊息</string>
+    <string name="about_module">關於模組</string>
+    <string name="about_module_summary">查看模組相關資訊</string>
     <string name="allow_screenshots">允許截圖</string>
     <string name="allow_untrusted_touches">"允許不受信任的觸摸"</string>
     <string name="app_coolapk_url">來酷安給我們五星好評</string>
@@ -17,7 +17,7 @@
     <string name="authcreak">禁用套件管理員簽名驗證</string>
     <string name="authcreak_summary">關閉安裝應用時的簽名驗證，可以安裝被篡改的應用</string>
     <string name="cancel">取消</string>
-    <string name="contributor_list">開源倉庫貢獻者名單</string>
+    <string name="contributor_list">原始碼倉庫貢獻者名單</string>
     <string name="corepacth">解除安裝限制</string>
     <string name="delete_on_post_notification">移除上層顯示通知</string>
     <string name="delete_on_post_notification_summary">移除 \"此應用正顯示在螢幕上其他應用的上層\" 通知</string>
