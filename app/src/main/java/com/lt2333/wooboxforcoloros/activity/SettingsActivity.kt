@@ -451,6 +451,13 @@ class SettingsActivity : MIUIActivity() {
                     ),
                     SwitchV("disable_flag_secure")
                 )
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.remove_oppo_default_app,
+                        tipsId = R.string.remove_oppo_default_app_summary
+                    ),
+                    SwitchV("remove_oppo_default_app")
+                )
                 Line()
                 TitleText(resId = R.string.notification)
                 TextSummaryWithSwitch(

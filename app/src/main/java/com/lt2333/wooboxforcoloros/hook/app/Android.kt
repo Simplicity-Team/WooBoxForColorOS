@@ -23,6 +23,7 @@ object Android : AppRegister() {
             SystemPropertiesHook, //SystemPropertiesHook
             AllowUntrustedTouches, //允许不受信任的触摸
             RemoveVPNActivatedNotification, //移除VPN已激活通知
+            RemoveOppoForceDefaultApp, //去掉OPPO对部分默认应用的限制
         )
     }
 
