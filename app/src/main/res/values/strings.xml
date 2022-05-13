@@ -178,6 +178,8 @@
     <string name="enable_charging_ripple">Enable Charging Ripple</string>
     <string name="lockscreen">Lock Screen</string>
     <string name="remove_red_one">Remove the red one</string>
+    <string name="remove_oppo_default_app">Unrestrict some default applications</string>
+    <string name="remove_oppo_default_app_summary">Unlock OPPO\'s restrictions on some default apps</string>
     <string name="skip_apk_scan">Skip Apk Scan</string>
     <string name="allow_replace_install">Allow Replace Install</string>
     <string name="allow_replace_install_summer">Use with \"Allow downgrade\"</string>
