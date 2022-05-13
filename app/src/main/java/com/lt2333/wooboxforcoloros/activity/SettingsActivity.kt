@@ -33,6 +33,7 @@ class SettingsActivity : MIUIActivity() {
             )
         }
         checkLSPosed()
+        getVersionCommit()
         super.onCreate(savedInstanceState)
     }
 
@@ -51,6 +52,30 @@ class SettingsActivity : MIUIActivity() {
                     exitProcess(0)
                 }
             }.show()
+        }
+    }
+
+    //获取APP Manifest versionCommit
+    private fun getVersionCommit(){
+        if(isLoad){
+            val keyList = arrayOf("PackageInstallCommit")
+            val packageList = arrayOf("com.android.packageinstaller")
+            for (key in keyList) {
+                for (packages in packageList){
+                    safeSP.putAny(key,getAppCommit(packages) as String)
+                }
+            }
+        }
+    }
+    private fun getAppCommit(packageName: String): String? {
+        return try {
+            val packageManager = this.packageManager
+            packageManager.getApplicationInfo(
+                packageName,
+                PackageManager.GET_META_DATA
+            ).metaData.getString("versionCommit")
+        } catch (exception: java.lang.Exception) {
+            "null"
         }
     }
 
@@ -533,6 +558,17 @@ class SettingsActivity : MIUIActivity() {
                 Line()
                 TitleText(resId = R.string.package_installer)
                 TextSummaryWithSwitch(
+                    TextSummaryV(textId = R.string.skip_apk_scan),
+                    SwitchV("skip_apk_scan")
+                )
+                TextSummaryWithSwitch(
+                    TextSummaryV(
+                        textId = R.string.allow_replace_install,
+                        tipsId = R.string.allow_replace_install_summer
+                    ),
+                    SwitchV("allow_replace_install")
+                )
+                TextSummaryWithSwitch(
                     TextSummaryV(textId = R.string.use_aosp_installer),
                     SwitchV("use_aosp_installer")
                 )
@@ -708,7 +744,7 @@ class SettingsActivity : MIUIActivity() {
                         onClickListener = {
                             try {
                                 val uri =
-                                    Uri.parse("https://crowdin.com/project/simplicitytools")
+                                    Uri.parse("https://crowdin.com/project/wooboxforcoloros")
                                 val intent = Intent(Intent.ACTION_VIEW, uri)
                                 startActivity(intent)
                             } catch (e: Exception) {
