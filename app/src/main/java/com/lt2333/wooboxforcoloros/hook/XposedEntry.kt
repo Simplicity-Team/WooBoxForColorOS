@@ -16,6 +16,7 @@ class XposedEntry : EasyXposedInit() {
         Android, //Android
         SystemUI, //系统界面
         Launcher, //桌面
+        AlarmClock, //时钟
         SecurityCenter, //安全中心
         PackageInstaller,//应用包安装程序
     )

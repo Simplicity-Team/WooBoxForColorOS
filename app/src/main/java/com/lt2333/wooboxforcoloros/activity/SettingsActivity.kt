@@ -58,12 +58,10 @@ class SettingsActivity : MIUIActivity() {
     //获取APP Manifest versionCommit
     private fun getVersionCommit(){
         if(isLoad){
-            val keyList = arrayOf("PackageInstallCommit")
-            val packageList = arrayOf("com.android.packageinstaller")
-            for (key in keyList) {
-                for (packages in packageList){
-                    safeSP.putAny(key,getAppCommit(packages) as String)
-                }
+            val keyList = arrayOf("PackageInstallCommit","AlarmClockCommit")
+            val packageList = arrayOf("com.android.packageinstaller","com.coloros.alarmclock")
+            for ((index,value) in keyList.withIndex()){
+                safeSP.putAny(value,getAppCommit(packageList[index]) as String)
             }
         }
     }
@@ -543,6 +541,12 @@ class SettingsActivity : MIUIActivity() {
                     SwitchV("unlock_self_start_quantity")
                 )
                 Line()
+                TitleText(resId = R.string.scope_alarmclock)
+                TextSummaryWithSwitch(
+                    TextSummaryV(textId = R.string.remove_clock_widget_redone),
+                    SwitchV("remove_clock_widget_redone")
+                )
+                Line()
                 TitleText(resId = R.string.scope_launcher)
                 TextSummaryWithSwitch(
                     TextSummaryV(textId = R.string.unlock_recent_task_locks_quantity),
@@ -782,6 +786,7 @@ class SettingsActivity : MIUIActivity() {
                                 val command = arrayOf(
                                     "killall com.android.systemui",
                                     "killall com.android.launcher",
+                                    "killall com.coloros.alarmclock",
                                     "killall com.android.packageinstaller",
                                     "killall com.oplus.safecenter",
                                 )
