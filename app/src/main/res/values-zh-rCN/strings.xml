@@ -31,6 +31,7 @@
     <string name="downgr">允许降级安装应用</string>
     <string name="downgr_summary">允许应用在安装新版本的情况下直接覆盖安装旧版本</string>
     <string name="dropdown_status_bar_clock_display_seconds">下拉状态栏时钟显秒</string>
+    <string name="remove_dropdown_status_bar_clock_redone">移除下拉状态栏时钟红一</string>
     <string name="enhancedMode">增强模式</string>
     <string name="enhancedMode_summary">可以解决一些APP内部的完整性校验，一般不需要开启</string>
     <string name="github_url">欢迎更多开发者共同参与开发</string>

@@ -36,6 +36,7 @@ object SystemUI : AppRegister() {
             StatusBarNetworkSpeedRefreshSpeed, //网速秒刷
             CustomClock, //自定义时钟
             StatusBarClock, //下拉状态栏时钟显秒
+            StatusBarClockRedOne, //移除下拉状态栏时钟红一
 
             //通知类
             RemoveUSBDebugging, //移除USB调试已开启通知

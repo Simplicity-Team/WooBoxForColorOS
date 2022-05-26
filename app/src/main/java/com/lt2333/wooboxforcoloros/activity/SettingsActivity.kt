@@ -244,6 +244,10 @@ class SettingsActivity : MIUIActivity() {
                     TextV(resId = R.string.dropdown_status_bar_clock_display_seconds),
                     SwitchV("dropdown_status_bar_clock_display_seconds")
                 )
+                TextWithSwitch(
+                    TextV(resId = R.string.remove_dropdown_status_bar_clock_redone),
+                    SwitchV("remove_dropdown_status_bar_clock_redone")
+                )
                 Line()
                 TitleText(resId = R.string.status_bar_icon)
                 TextSummaryWithSwitch(
