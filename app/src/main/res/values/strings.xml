@@ -51,6 +51,7 @@
     <string name="downgr_summary">Allow downgrade applications.</string>
 
     <string name="dropdown_status_bar_clock_display_seconds">Drop-down status bar clock display seconds</string>
+    <string name="remove_dropdown_status_bar_clock_redone">Remove drop-down status bar clock red one</string>
 
     <string name="enhancedMode">Enhanced Mode</string>
     <string name="enhancedMode_summary">Pass some validation in the application</string>
@@ -127,6 +128,7 @@
     <string name="scope_other_summary">Phone Manager, Battery and performance, etc.</string>
     <string name="scope_phone_manager">Phone Manager</string>
     <string name="scope_security_center">Security Center</string>
+    <string name="scope_alarmclock">Alaarm Clock</string>
     <string name="scope_systemui">SystemUI</string>
     <string name="scope_systemui_summary">Customize system interface, status bar, lock screen, etc.</string>
 
@@ -154,6 +156,7 @@
 
     <string name="unlock_recent_task_locks_quantity">Unlock the limit on the number of recent task locks</string>
     <string name="unlock_self_start_quantity">Unlock self start quantity</string>
+    <string name="remove_clock_widget_redone">Remove desktop clock component RedOne</string>
 
     <string name="xposeddescription">Customization tool for ColorOS12(Android 12)</string>
     <string name="status_bar_clock_format">Status bar clock format</string>

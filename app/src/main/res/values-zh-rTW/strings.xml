@@ -69,6 +69,7 @@
     <string name="scope_launcher">啟動器</string>
     <string name="scope_other">其他</string>
     <string name="scope_security_center">安全中心</string>
+    <string name="scope_alarmclock">时钟</string>
     <string name="scope_systemui">系統介面</string>
     <string name="scope_systemui_summary">自訂系統介面、狀態欄、鎖定螢幕等</string>
     <string name="sound">聲音</string>
