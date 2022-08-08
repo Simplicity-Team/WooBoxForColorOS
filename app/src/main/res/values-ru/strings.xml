@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
+    <string name="Done">ОК</string>
     <string name="HideLauncherIcon">Скрыть иконку с рабочего стола</string>
     <string name="Tips">Подсказка</string>
     <string name="UsePreSig">Использование установленных подписей</string>
@@ -8,6 +9,7 @@
     <string name="about_module">О модуле</string>
     <string name="about_module_summary">Просмотр информации</string>
     <string name="allow_screenshots">Разрешить скриншот</string>
+    <string name="allow_untrusted_touches">"Разрешить ненадежные касания"</string>
     <string name="app_coolapk_url">Перейти и оставить отзыв</string>
     <string name="app_coolapk_url_summary">Это поможет в развитии проэкта</string>
     <string name="are_you_sure_reboot">Перезагрузить устройство?</string>
@@ -28,19 +30,33 @@
     <string name="double_tap_to_sleep">Двойное нажатие для отключения экрана</string>
     <string name="downgr">Разрешить понижение</string>
     <string name="downgr_summary">Разрешить понижение версий приложений.</string>
+    <string name="dropdown_status_bar_clock_display_seconds">Выпадающая строка состояния секунд</string>
+    <string name="remove_dropdown_status_bar_clock_redone">Удалить красный выпадающий список в строке состояния</string>
     <string name="enhancedMode">Улучшенный режим</string>
     <string name="enhancedMode_summary">Пройдите проверку в приложении</string>
     <string name="github_url">Приглашаем больше разработчиков принять участие в разработке</string>
     <string name="hide_battery_percentage_icon">Скрыть проценты батареи</string>
     <string name="hide_battery_percentage_icon_summary">Функция отображения процента заряда батареи должна быть включена</string>
     <string name="hide_mobile_activity_icon">Скрыть значок мобильной активности</string>
+    <string name="hide_prompt_view">Скрыть окно запроса</string>
+    <string name="hide_prompt_view_summary">При включении, подсказка к форме капсулы будет скрыта. Например, фоновая запись, фоновый вызов, трансляция экрана...</string>
+    <string name="hide_wifi_activity_icon">Скрыть стрелки wifi</string>
     <string name="issues">Обратная связь</string>
     <string name="issues_url">Нажмите, чтобы просмотреть обсуждение на GitHub</string>
+    <string name="launcher_more_layout">Ещё макет</string>
+    <string name="launcher_more_layout_summary">Больше вариантов макета (3x5 ~ 6x7).</string>
+    <string name="launcher_remove_update_dot">Удалить точку обновления приложения</string>
+    <string name="launcher_remove_update_dot_summary">Снять точку рядом с названием обновленных приложений.</string>
+    <string name="left">Слева</string>
     <string name="main_switch">Вкл/Выкл модуль</string>
     <string name="matters_needing_attention">Функция не работает?</string>
     <string name="matters_needing_attention_context">Рекомендуется перезагрузить телефон после первой активации или обновления.Большинство изменений требуют перезапуска. Используйте 3 точки в правом верхнем углу</string>
+    <string name="media_volume_steps_summary">Включение может привести к ненормальной прокрутке строки громкости или неисправности громкости Bluetooth</string>
+    <string name="media_volume_steps_switch">Шаги громкости</string>
     <string name="menu">Варианты перезагрузки</string>
+    <string name="none">Ничего</string>
     <string name="not_support">Похоже, вы используете устаревшую версию LSPosed или LSPosed не активен. Пожалуйста, обновите LSPosed или активируйте его и повторите попытку.</string>
+    <string name="notification">Уведомление</string>
     <string name="opensource">Исходный код</string>
     <string name="other">Другое</string>
     <string name="participate_in_translation">Участвуйте в переводе</string>
@@ -50,8 +66,16 @@
     <string name="qs_custom_columns_unexpanded">Столбцы (нерасширенные)</string>
     <string name="qs_custom_rows">Строки</string>
     <string name="qs_custom_rows_horizontal">Строки (горизонтальные)</string>
+    <string name="qs_custom_switch">Настраиваемые строки и столбцы</string>
+    <string name="qs_custom_switch_summary">Конкретный верхний предел определяется плотностью дисплея</string>
+    <string name="quick_settings_panel">Панель быстрых настроек</string>
     <string name="reboot">Полная перезагрузка</string>
     <string name="reboot_host">Перезагрузка SystemUI</string>
+    <string name="remove_dev_mode_is_on">Убрать DEV режим включен</string>
+    <string name="remove_finished_charging">Убрать завершенную зарядку</string>
+    <string name="remove_footer_security_warn">Удалить предупреждение о безопасности</string>
+    <string name="remove_usb_debugging">Удаление отладки по USB</string>
+    <string name="remove_vpn_activated">Удалить VPN активирован</string>
     <string name="scope">Основное</string>
     <string name="scope_android_summary">После первой установки или обновления модуля, данные функции вступят в силу после перезагрузки</string>
     <string name="scope_systemui_summary">Настройте системный интерфейс, строку состояния, экран блокировки и т.д.</string>
