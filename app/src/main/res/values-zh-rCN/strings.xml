@@ -125,6 +125,10 @@
     <string name="are_you_sure_fast_reboot">确定快速重启系统？</string>
     <string name="package_installer">软件包安装器</string>
     <string name="use_aosp_installer">使用 AOSP 安装器</string>
+    <string name="features">特性</string>
+    <string name="enable_charging_ripple">开启原生充电动画</string>
+    <string name="lockscreen">锁屏</string>
+    <string name="remove_red_one">移除红One</string>
     <string name="skip_apk_scan">跳过Apk扫描</string>
     <string name="allow_replace_install">允许替换安装</string>
     <string name="allow_replace_install_summer">搭配\"允许降级安装应用\"使用</string>
